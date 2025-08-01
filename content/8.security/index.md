@@ -1,0 +1,57 @@
+---
+title: 'Security'
+description: 'Security Notes'
+navigation: false
+lastModified: '2025-03-28'
+---
+
+## Local HTTPS
+
+Sites not using HTTPS are marked as "not secure", and produce an extra "warning" browser panel, taking up valuable browser window space.
+
+To remove the browser warning panel, create a private key and a local SSL cert to serve dev servers over HTTPS.
+
+### Root Private Key
+
+```bash
+mkdir ~/certs
+cd ~/certs
+openssl genrsa -out 192.168.5.555.key 2048
+```
+
+## Root Self-Signed Cert
+
+Create root cert, using dev server hostname or IP, for `Common Name`:
+
+```bash
+openssl req -x509 -new -nodes -key 192.168.5.555.key -out 192.168.5.555.crt -days 3650
+```
+
+## Use Cert
+
+Install the CA cert pkg:
+
+```bash
+sudo apt install -y ca-certificates
+```
+
+Add cert to trust store and update store:
+
+```bash
+sudo cp 192.168.5.555.crt /usr/local/share/ca-certificates
+sudo update-ca-certificates
+```
+
+## Dev Server Config
+
+`nxut.config.ts`:
+
+```ts
+  devServer: {
+    host: '192.168.5.555:3000',
+    https: {
+      key: '../../../../certs/192.168.5.555.key',
+      cert: '../../../../certs/192.168.5.555.crt'
+    }
+  },
+```

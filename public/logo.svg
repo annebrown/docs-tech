@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="200"
+   height="200"
+   viewBox="0 0 199.99999 200"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.4.2 (1:1.4.2+202505120737+ebf0e940d0)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="2.0675936"
+     inkscape:cx="135.66496"
+     inkscape:cy="91.89427"
+     inkscape:window-width="1280"
+     inkscape:window-height="672"
+     inkscape:window-x="1920"
+     inkscape:window-y="935"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer2" />
+  <path
+     fill="none"
+     stroke="currentColor"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="13.9015"
+     d="M 99.783208,54.799734 A 92.390807,74.799537 0 0 0 37.983337,35.687076 c -10.835578,0 -21.238555,1.500994 -30.8999339,4.269493 V 158.78528 a 92.699801,75.049701 0 0 1 30.8999339,-4.26951 c 23.741449,0 45.402315,7.2298 61.799871,19.11267 m 0,-118.828706 A 92.390807,74.799537 0 0 1 161.58308,35.687076 c 10.83558,0 21.23855,1.500994 30.89994,4.269493 V 158.78528 a 92.699801,75.049701 0 0 0 -30.89994,-4.26951 92.390807,74.799537 0 0 0 -61.799872,19.11267 m 0,-118.828706 V 173.62844"
+     id="path1"
+     style="fill:#fffff9;fill-opacity:1;stroke:#0ea5e9;stroke-opacity:1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="fill:#fffff9;fill-opacity:1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <g
+       id="g1"
+       transform="matrix(9.8571692,0,0,9.8609789,-19.449135,-39.583596)">
+      <path
+         id="path10"
+         style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.400182;stroke-linecap:round;paint-order:stroke fill markers"
+         d="M 5.1661479,15.640784 2.8631238,15.542851 11.135006,5.9790955 12.246161,7.3424261 Z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path11"
+         style="display:inline;fill:#0ea5e9;fill-opacity:1;stroke:#0ea5e9;stroke-width:0.400182;stroke-linecap:round;stroke-opacity:1;paint-order:stroke fill markers"
+         d="M 16.9573,16.251151 4.3242241,16.311921 12.76865,6.4794183 19.15483,13.827821 Z"
+         sodipodi:nodetypes="ccccc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.06599px;font-family:'Anton SC';-inkscape-font-specification:'Anton SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.481351;stroke-linecap:round;stroke-opacity:1;paint-order:stroke fill markers"
+         x="8.5177193"
+         y="13.863381"
+         id="text11"
+         transform="scale(0.90339843,1.1069313)"><tspan
+           sodipodi:role="line"
+           id="tspan11"
+           x="8.5177193"
+           y="13.863381"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.06599px;font-family:'Latin Modern Sans';-inkscape-font-specification:'Latin Modern Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.481351">docs</tspan></text>
+    </g>
+  </g>
+</svg>

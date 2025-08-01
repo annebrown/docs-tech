@@ -1,0 +1,39 @@
+---
+title: Setup
+description: Git Setup
+navigation: false
+lastModified: '2025-01-08'
+---
+
+## Global
+
+```bash
+git config --global user.name "Jane Doe"
+git config --global user.email jane@doeville.com
+```
+
+## GitHub CLI
+
+### Install GitHub Desktop
+
+#### Raspi
+
+Install from `pi-apps`.
+
+#### Ubuntu
+
+```bash
+sudo apt install gh
+```
+
+## Authn
+
+```bash
+gh auth login # Opens browser for authn
+```
+
+### [Two Factor Authn](../../oses/linux/new-dev-env.md#two-factor-authn)
+
+<div class="ab-buttons">
+    <div class="item-00 box1"><a href="../git/gitignore/">.gitinore</a></div>
+</div>
