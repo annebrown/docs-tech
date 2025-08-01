@@ -1,7 +1,7 @@
 ---
 seo:
-  title: pub.annebrown.ca
-  description: Tech Design and Development
+  title: Tech Docs
+  description: Technology Development Notes
 ---
 
 ::u-page-hero
