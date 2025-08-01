@@ -15,7 +15,7 @@ $ pnpm run start
 
 [60982:0102/192337.249491:FATAL:setuid_sandbox_host.cc(163)] The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /home/anne/electron/shortcut-panel/node_modules/.pnpm/electron@33.2.1/node_modules/electron/dist/chrome-sandbox is owned by root and has mode 4755.
 /home/anne/electron/shortcut-panel/node_modules/.pnpm/electron@33.2.1/node_modules/electron/dist/electron exited with signal SIGTRAP
- ELIFECYCLE  Command failed with exit code 1.
+ELIFECYCLE Command failed with exit code 1.
 [19:23:37] anne@devy: ~/electron/shortcut-panel/
 ```
 

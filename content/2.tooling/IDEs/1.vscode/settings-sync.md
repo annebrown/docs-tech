@@ -34,7 +34,7 @@ Alphabetizing facilitates mods and reduces dups.
 
 To ease VSCode config for new dev envs, .dotfiles could be used instead of VSCode's built-in settings sync.
 
-See [New Dev Env](../../oses/linux/new-dev-env.md) and the [Dotfiles Project](../../../dev/projects/dotfiles/index.md).  
+See [New Dev Env](../../oses/linux/new-dev-env.md) and the [Dotfiles Project](https://github.com/annebrown/dotfiles).  
 
 Move Settings Files to .dotfiles:
 

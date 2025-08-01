@@ -11,7 +11,6 @@ Components use the Tailwind Variants API for styling, which is configured throug
 ```ts
 export default defineAppConfig({
     ui: {
-        // Color aliases
         colors: {
             primary: 'blue',
             secondary: 'green',
@@ -21,7 +20,6 @@ export default defineAppConfig({
             gray: 'cool',
             neutral: 'zinc'
         },
-        // Components
         button: {
             slots: {
                 base: 'group font-bold',
@@ -32,7 +30,6 @@ export default defineAppConfig({
                 variant: 'subtle'
             }
         },
-        // Component customizations
         badge: {
             slots: {
                 base: 'font-medium inline-flex items-center',

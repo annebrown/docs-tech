@@ -6,7 +6,7 @@ lastModified: '2025-01-08'
 
 ## Purpose
 
-Consistent linux development environment for bare metal linux host, virtual machine, container, cloud (GitPod, GitHub.dev, StackBlitz, etc.), and for linux dev on other OSes (iOS, xOS, Android, RasPi, ChromeOS, Win11, etc).  See [dotfiles Project](../../devy/projects/dotfiles/index.md).
+Consistent linux development environment for bare metal linux host, virtual machine, container, cloud (GitPod, GitHub.dev, StackBlitz, etc.), and for linux dev on other OSes (iOS, xOS, Android, RasPi, ChromeOS, Win11, etc).  See [dotfiles Project](https://github.com/annebrown/dotfiles).
 
 
 ## Description

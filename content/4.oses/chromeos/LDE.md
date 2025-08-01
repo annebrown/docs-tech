@@ -59,5 +59,3 @@ intel arch: Ctrl-alt-Fwd/Ctrl-Alt-Back [then Ctrl-Alt-Refersh on some devices]
 1. ```sudo vim /etc/hostname # Not $ sudo hostname```
 2. Shutdown linux
 3. Reboot device
-
-### [Add Local Ntwk Hosts](../linux/bash/fav-bash-cmds.md#add-local-ntwk-hosts)
