@@ -6,7 +6,7 @@ lastModified: '2025-01-08'
 
 ## Install LDE
 
-### [Turn on Developer Mode](index.md/#developer-mode)
+### [Turn on Developer Mode](./index#developer-mode)
 
 ### Install Crouton
 
@@ -16,26 +16,28 @@ lastModified: '2025-01-08'
 4. Ctrl-Alt-T, when screen updates, then Enter to open ChromeOS terminal.
 5. Enter shell:
 
-    ```crosh> shell```
+    
+```bashh
+crosh> shell
+```
 
 6. Make executable:
 
-    ```bash
-    chronos@localhost / $ sudo install -Dt /usr/local/bin -m 755 \
-	~/Downloads/crouton
-    ```
+```bash
+chronos@localhost / $ sudo install -Dt /usr/local/bin -m 755 \
+~/Downloads/crouton
+```
 
 7. Pull the Trigger
-
-    ```bash
-    chronos@localhost / $ sudo crouton -t touch,[xfce|lxde|kde]
-    ```
+```bash
+chronos@localhost / $ sudo crouton -t touch,[xfce|lxde|kde]
+```
 
 8. Desktop
 
-    ```bash
-    chronos@localhost / $ sudo cruton -t [xfce|lxde|kde]
-    ```
+```bash
+chronos@localhost / $ sudo cruton -t [xfce|lxde|kde]
+```
 
 9. Provide password.
 
@@ -56,6 +58,6 @@ intel arch: Ctrl-alt-Fwd/Ctrl-Alt-Back [then Ctrl-Alt-Refersh on some devices]
 
 ### Hostname
 
-1. ```sudo vim /etc/hostname # Not $ sudo hostname```
+1. `sudo vim /etc/hostname # Not $ sudo hostname`
 2. Shutdown linux
 3. Reboot device
