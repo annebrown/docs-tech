@@ -39,7 +39,7 @@ sudo chmod 4755 /opt/Hyper/chrome-sandbox
 
 ## Reload
 
-Reload term to pick up [dotfiles](../../../dev/projects/index) customized config, if exists:
+Reload term to pick up [dotfiles](https://github.com/annebrown/dotfiles) customized config, if exists:
 
  `Menu > View>  Reload` or `Ctrl-Shift-R`
 

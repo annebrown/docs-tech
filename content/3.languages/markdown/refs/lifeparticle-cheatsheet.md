@@ -364,7 +364,6 @@ Using MathJax syntax:
 | Bittersweet     | `$\color{Bittersweet}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                | $\color{Bittersweet}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$  |
 | Black           | `$\color{Black}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$`                      | $\color{Black}{The\ quick\ brown\ fox\ jumps\ over\ the\ lazy\ dog.}$        |
 
-[Full Table](data/MathJax.md)
 
 ## Multiline
 
@@ -765,10 +764,10 @@ Some other important footnote.[^2]
 ## Relative
 
 ```md
-[Example of a relative link](data/rl.md)
+[Example of a relative link](data/rl)
 ```
 
-[Example of a relative link](data/rl.md)
+[Example of a relative link](data/rl)
 
 ## Auto
 

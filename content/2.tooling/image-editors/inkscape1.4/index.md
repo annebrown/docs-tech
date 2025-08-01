@@ -19,4 +19,4 @@ sudo apt install inkscape
 
 ### Workflows
 
-See [Inkscape Workflows](../../graphics/inkscape-v1.4/index.md)
+See [Inkscape Workflows](../../graphics/inkscape-v1.4)

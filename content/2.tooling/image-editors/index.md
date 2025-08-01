@@ -11,4 +11,4 @@ Software tools to create, modify, and enhance digital images.
 
 ### Inkscape
 
-See [Inkscape Workflows](../../graphics/inkscape-v1.4/index.md)
+See [Inkscape Workflows](../../graphics/inkscape-v1.4)

@@ -9,7 +9,7 @@ lastModified: '2025-03-17'
 
 ### Install Ruby
 
-Jekyll is built on Ruby.  See [Install Ruby](../../../languages/ruby/index.md#setup).
+Jekyll is built on Ruby.  See [Install Ruby](../../../languages/ruby#setup).
 
 ## Install Jekyll
 

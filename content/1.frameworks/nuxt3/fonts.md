@@ -6,11 +6,11 @@ lastModified: '2025-04-06'
 
 ## Description
 
-Configure fonts for global use in a Nuxt 3 app, using Tailwind 4, [@nuxt/ui 3](./modules/ui3/), and [@nuxt/fonts](./modules/fonts/).
+Configure fonts for global use in a Nuxt 3 app, using Tailwind 4, [@nuxt/ui 3](./modules/ui3), and [@nuxt/fonts](./modules/fonts).
 
 ## Fonts Provider
 
-To configure fronts provider, see [@nuxt/fonts module](./modules/fonts/index)
+To configure fronts provider, see [@nuxt/fonts module](./modules/fonts)
 
 ## Global Variables
 
