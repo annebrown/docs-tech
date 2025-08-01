@@ -159,7 +159,7 @@ extra:
   generator: false # Made with Material for MkDocs
 ```
 
-### Extending and Overriding Theme Sytling
+### Extending and Overriding Theme Styling
 
 ```yml
 #-------------------------------------------------------------------------------
@@ -231,4 +231,4 @@ plugins:
 
 ## VSCode YAML Schema
 
-Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../IDEs/vscode/extensions#yaml)
+Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../../IDEs/vscode/extensions#yaml)

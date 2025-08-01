@@ -6,7 +6,7 @@ lastModified: '2025-01-08'
 
 ## Install LDE
 
-### [Turn on Developer Mode](./index#developer-mode)
+Turn on Developer Mode
 
 ### Install Crouton
 
@@ -17,7 +17,7 @@ lastModified: '2025-01-08'
 5. Enter shell:
 
     
-```bashh
+```bash
 crosh> shell
 ```
 
@@ -52,7 +52,7 @@ chronos@localhost / $ sudo cruton -t [xfce|lxde|kde]
 
 arm arch: Ctrl-Alt-Shift-Fwd/Ctrl-Alt-Shift-Back
 
-intel arch: Ctrl-alt-Fwd/Ctrl-Alt-Back [then Ctrl-Alt-Refersh on some devices]
+intel arch: Ctrl-alt-Fwd/Ctrl-Alt-Back [then Ctrl-Alt-Refresh on some devices]
 
 ## Configure
 

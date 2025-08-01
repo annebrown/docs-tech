@@ -16,4 +16,4 @@ css: ['@/assets/styles/fleet.css', '@/assets/styles/ship.css'],
 
 ## CSS
 
-For general CSS config, see [CSS](../../../3.languages/css/0.index).
+For general CSS config, see [CSS](../../../3.languages/css).

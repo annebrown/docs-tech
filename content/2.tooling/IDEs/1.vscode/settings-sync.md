@@ -27,14 +27,14 @@ This is a warning alert with a custom icon.
 
 Alphabetizing facilitates mods and reduces dups.  
 
-  - User Settings: `~/.config/Code/User/settigns.json`
+  - User Settings: `~/.config/Code/User/settings.json`
   - User Snippets: `~/.config/Code/User/snippets`
 
 ## Using .dotfiles
 
 To ease VSCode config for new dev envs, .dotfiles could be used instead of VSCode's built-in settings sync.
 
-See [New Dev Env](../../../../../oses/linux/new-dev-env) and the [Dotfiles Project](https://github.com/annebrown/dotfiles).  
+See [New Dev Env](../../../oses/linux/new-dev-env) and the [Dotfiles Project](https://github.com/annebrown/dotfiles).  
 
 Move Settings Files to .dotfiles:
 
@@ -52,7 +52,7 @@ stow code
 
 Resulting Links:
 
-| Link | Tarket |
+| Link | Target |
 | :--- | :----- |
 | `~/.config/Code/User/settings.json` | `~/.dotfiles/code/.config/Code/User/settings.json` |
 | `~/.config/Code/User/snippets/`     | `~./dotfiles/code/.config/Code/User/snippets/`      |
