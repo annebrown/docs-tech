@@ -45,4 +45,6 @@ Reload term to pick up [dotfiles](https://github.com/annebrown/dotfiles) customi
 
  Also reload, if at first, `rt-mouse-button` doesn't trigger context menu.
 
-## [Config](./config)
+## Config
+
+See [Config]config).

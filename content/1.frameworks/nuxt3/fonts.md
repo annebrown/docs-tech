@@ -10,7 +10,7 @@ Configure fonts for global use in a Nuxt 3 app, using Tailwind 4, @nuxt/ui 3, an
 
 ## Fonts Provider
 
-To configure fronts provider, see [@nuxt/fonts module](./modules/fonts)
+To configure fronts provider, see [@nuxt/fonts module]modules/fonts)
 
 ## Global Variables
 
