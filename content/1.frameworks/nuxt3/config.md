@@ -47,7 +47,7 @@ telemetry: false, // F Telemetry
 
 ### Content
 
-See [Nuxt/Content/config](./modules/content/config).
+See [Nuxt/Content Config](./modules/content/config).
 
 ### Styles
 

@@ -23,7 +23,7 @@ Create new profile:
 
 `Menu > Settings > Manage Profiles`, then `New`
 
-Configure profile.  See [Profiles](#profiles) for examples.
+Configure profile.  
 
 Add alias for new profile to `.bash_aliases`:
 

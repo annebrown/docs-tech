@@ -8,7 +8,7 @@ lastModified: '2025-01-08'
 
 ## Install
 
-In the project [venv](../install#activate-venv):
+In the project [venv](../../../../languages/ruby/install#activate-venv):
 
 ```bash
 pip install mkdocs-material

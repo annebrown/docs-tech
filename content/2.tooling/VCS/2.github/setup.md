@@ -33,7 +33,3 @@ gh auth login # Opens browser for authn
 ```
 
 ### [Two Factor Authn](../../oses/linux/new-dev-env#two-factor-authn)
-
-<div class="ab-buttons">
-    <div class="item-00 box1"><a href="../git/gitignore/">.gitinore</a></div>
-</div>

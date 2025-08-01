@@ -67,7 +67,7 @@ const links = computed(() => {
             v-if="page?.body?.toc?.links?.length"
             #right
             >
-        <div class="-mr-8 sm:m-0">
+        <div class="">
             <UContentToc
                 :title="toc?.title"
                 :links="page.body?.toc?.links"

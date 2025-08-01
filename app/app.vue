@@ -23,9 +23,9 @@ provide('navigation', navigation)
   <UApp>
     <NuxtLoadingIndicator />
 
-    <AppHeader class="mx-0 md:mx-8" />
+    <AppHeader class="mx-2 md:mx-8" />
 
-    <UMain   class="mx-0 md:mx-8 rounded-md">
+    <UMain   class="mx-2 md:mx-8 rounded-md">
       <NuxtLayout>
         <NuxtPage/>
       </NuxtLayout>

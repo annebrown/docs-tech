@@ -7,7 +7,7 @@ lastModified: '2025-02-21'
 
 ## Rendering
 
-By default, Nuxt uses [universal rendering](/content/devy/web-dev/rendering) (rendered on server, then rehydrated by client), but components can alo be designed for client-side, server-side, edge-side, or a combination.
+By default, Nuxt uses (rendered on server, then rehydrated by client), but components can alo be designed for client-side, server-side, edge-side, or a combination.
 
 ## Client-Side
 

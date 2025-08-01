@@ -37,4 +37,4 @@ Refresh terminal to reload config:
 
  `Menu > View>  Reload` or `Ctrl-Shift-R` or restart app.
 
-## [Plugins](plugins)
+## [Plugins](./plugins)

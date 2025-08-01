@@ -13,8 +13,8 @@ lastModified: '2025-01-08'
 
 - List of code statements, executed in order as written
 - Executed by browsers
-- See [output](output) for JS output options
-- See [usage](usage) for how to use JS and resulting browser parsing order
+- See [output](./output) for JS output options
+- See [usage](./usage) for how to use JS and resulting browser parsing order
 
 ## Risks
 

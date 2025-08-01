@@ -17,7 +17,7 @@ sudo apt install ruby-full build-essential zlib1g-dev
 
 ### Add $PATH
 
-Add $PATH env var stmt to `@/bash/.bash_aliases` in [.dotfiles project](https://github.com/annebrown/dotfiles):
+Add $PATH env var stmt to `@/bash/.bash_aliases` in [dotfiles project](https://github.com/annebrown/dotfiles):
 
 ```bash
 export PATH="$HOME/.gem/ruby/$(ruby -e "puts RUBY_VERSION.gsub(/\.\d$/, )")/bin:$PATH"
