@@ -767,8 +767,6 @@ Some other important footnote.[^2]
 [Example of a relative link](data/rl)
 ```
 
-[Example of a relative link](data/rl)
-
 ## Auto
 
 ```md

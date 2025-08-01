@@ -34,7 +34,7 @@
     --ab-primary-1:     var(--color-sky-400);
     --ab-primary-2:     var(--color-sky-300);
     /* Secondary */
-    --ui-secondary:     var(--color-gray-400);
+    --ui-secondary:     var(--color-gray-700);
     --ab-secondary-1:   var(--color-gray-300);
     --ab-secondary-2:   var(--color-gray-200);
     --ab-secondary-3:   var(--color-gray-100);
@@ -47,16 +47,15 @@
     /**********************************************************************/
     /* Ship
     /**********************************************************************/
-    --ui-bg:            var(--color-gray-300);
+    --ui-bg:            var(--color-gray-200);
     --ab-water:         var(--ui-bg);
     --ab-ship:          transparent;
     --ab-bow:           var(--ui-bg);
-    --ab-midships:      var(--color-gray-50);
+    --ab-midships:      white;
     --ab-port-gunnel:   var(--ui-bg);
-    --ab-star-gunnel:   var(--color-orange-500);
+    --ab-star-gunnel:   var(--ui-bg);
     --ab-hold:          transparent;
     --ab-cargo:         transparent;
-    --ab-star-gunnel:   transparent;
     --ab-transom:       var(--ui-bg);
     /**********************************************************************/
     /* Messages
@@ -111,7 +110,6 @@
     --ab-star-gunnel:   var(--ui-bg);
     --ab-hold:          transparent;
     --ab-cargo:         transparent;
-    --ab-star-gunnel:   transparent;
     --ab-transom:       var(--ui-bg);
     /**************************************************************************/
     /* Messages - Dark
@@ -163,8 +161,8 @@ table { @apply rounded-md bg-(--ui-bg); }
     shadow-[2px_2px_0_0_#a8a29e] dark:shadow-[2px_2px_0_0_#0f172a];
 }
 .card-glass-link { @apply
-    rounded-md bg-transparent dark:bg-gray-950/20 border
-    border-none dark:border-gray-700
+    rounded-md bg-(--ui-bg) dark:bg-gray-950/20 border
+    dark:border-none border-gray-100
     shadow-[2px_2px_0_0_#a8a29e] dark:shadow-[2px_2px_0_0_#0f172a]
     hover:shadow-[3px_3px_0_0_#a8a29e] dark:hover:shadow-[3px_3px_0_0_black]
     cursor-pointer transition ease-in-out;

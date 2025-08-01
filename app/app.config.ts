@@ -9,6 +9,7 @@ export default defineAppConfig({
     uiPro: {
         contentNavigation: {
             slots: {
+                container: 'max-w-fit h-fit',
                 list: 'isolate -mx-2.5 -mt-1',
                 item: 'my-0',
                 listWithChildren: 'ms-2 mb-0.5',
@@ -66,7 +67,7 @@ export default defineAppConfig({
         },
     },
     header: {
-        title: 'annebrown.ca',
+        title: 'Tech Docs',
         to: '/',
         logo: {
             alt: 'Two sails with initials, AB',
@@ -85,7 +86,7 @@ export default defineAppConfig({
         ]
     },
     footer: {
-        credits: `Copyright © ${new Date().getFullYear()} AnneBrown`,
+        credits: `Copyright © ${new Date().getFullYear()}`,
         colorMode: true,
         links: [
             {

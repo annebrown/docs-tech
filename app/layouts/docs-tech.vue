@@ -7,7 +7,7 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 <template>
   <UContainer class="mx-0 px-0">
     <UPage>
-      <template #left>
+      <template #left class="">
         <UPageAside>
           <UContentNavigation
             highlight
@@ -17,6 +17,12 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
       </template>
 
       <slot />
+
+    <!-- Child Route Cards-->
+    <div class="mt-4 mx-auto p-2 rounded-lg bg-(--ab-midships)">
+        <ImmediateChildCards />
+    </div>
+
     </UPage>
   </UContainer>
 </template>

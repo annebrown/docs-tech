@@ -8,5 +8,5 @@ lastModified: '2025-01-07'
 
 Dev host becomes unresponsive when three or more VSCode workspaces are open.
 
-See [VSCode Memory](../vscode/memory).
+See [VSCode Memory](../memory).
 

@@ -5,7 +5,7 @@ const { footer } = useAppConfig()
 <template>
   <UFooter>
     <template #left>
-      {{ footer.credits }}
+      {{ footer.credits }}<a href="https://annebrown.ca">Anne Brown</a>
     </template>
 
     <template #right>
