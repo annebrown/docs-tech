@@ -47,4 +47,4 @@ some-element { font-family: Roboto, sans-serif; }
 
 ## Nuxt 3 Fonts
 
-For more info see [Using Fonts in Nuxt 3](../../fonts.md).
+For more info see [Using Fonts in Nuxt 3](../../fonts).

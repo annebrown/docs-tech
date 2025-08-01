@@ -9,7 +9,7 @@ MkDocs has themes, plugins, and Python markdown extensions. Some of these are al
 
 ## Installing Add-Ons
 
-To install non-built-in plugins, themes and python extensions, activate the project [venv](../install.md#activate-venv) and:
+To install non-built-in plugins, themes and python extensions, activate the project [venv](../install#activate-venv) and:
 
 ```bash
 pip install [full-name-of-add-on]

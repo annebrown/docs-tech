@@ -8,7 +8,7 @@ The aptly-named awesome-pages plulgin adds automatic and specific dir-based navi
 
 ## Install
 
-In the project [venv](../install.md#activate-venv):
+In the project [venv](../install#activate-venv):
 
 ```bash
 pip install mkdocs-awesome-pages-plugin

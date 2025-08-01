@@ -5,7 +5,7 @@ navigation: false
 lastModified: '2025-01-08'
 ---
 
-## [Linux Dev Env](LDE.md)
+## [Linux Dev Env](LDE)
 
 ## ChromeOS Recovery Mode
 

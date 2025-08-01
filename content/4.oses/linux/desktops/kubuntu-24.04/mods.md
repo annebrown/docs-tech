@@ -14,4 +14,4 @@ Configure dev env app windows
 
 ### Dims
 
-Use [xrandr](../../../../2.tooling/misc/xrandr.md) to retrieve window dims:
+Use [xrandr](../../../../2.tooling/misc/xrandr) to retrieve window dims:

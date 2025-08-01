@@ -33,4 +33,4 @@ Logs are stored in binary in `/var/lib/systemd/catalog/database` file.
 This file enumerates all logs incl. kernel, boot and app logs.
 
 
-See also: [Basic Log Viewing](journalctl.md).
+See also: [Basic Log Viewing](journalctl).

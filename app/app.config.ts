@@ -44,8 +44,8 @@ export default defineAppConfig({
         page: {
             slots: {
                 center: 'bg-(--ab-midships) rounded',
-                left: 'card-glass-narrow max-w-100 md:max-w-fit bg-(--ab-port-gunnel)',
-                right: 'card-glass-narrow w-fit bg-(--ab-port-gunnel)'
+                left: 'card-glass-narrow h-fit max-w-100 md:max-w-fit bg-(--ab-port-gunnel)',
+                right: 'card-glass-narrow w-fit h-fit bg-(--ab-port-gunnel)'
             }
         },
         pageFeature: {
@@ -97,7 +97,7 @@ export default defineAppConfig({
         ]
     },
     toc: {
-        title: 'Table of Contents',
+        title: 'Shortcuts',
         bottom: {
             title: 'Community',
             edit: 'https://github.com/nuxt-ui-pro/docs/edit/main/content',

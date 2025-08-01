@@ -1,6 +1,6 @@
 ---
-title: Error Handling
-description: Nuxt Error Handling
+title: Error
+description: Dude!
 lastModified: '2025-03-22'
 ---
 

@@ -5,7 +5,7 @@ navigation: false
 lastModified: '2025-01-08'
 ---
 
-## [Bluetooth](bluetooth.md)
+## [Bluetooth](bluetooth)
 
 ## Theming
 

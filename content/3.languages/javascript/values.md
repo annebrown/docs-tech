@@ -69,7 +69,7 @@ function functionName( arg1, arg2, arg3) {
 functionName(); //execute
 ```
 
-see [functions](../javascript/functions.md).
+see [functions](../javascript/functions).
 
 ## Identifiers
 

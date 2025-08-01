@@ -44,7 +44,7 @@ alert("Changes Saved!);
 ## Console
 
 - Server Log
-- See [console](console.md) for usage
+- See [console](console) for usage
 
 ```js title="Example"
 ErrorMsg = "Error: File: ${scriptfile}, Function: myfunctionName ";
