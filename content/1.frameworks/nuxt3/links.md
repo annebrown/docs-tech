@@ -12,4 +12,4 @@ lastModification: 2025-02-25
 
 The [NuxtUI Module](https://ui.nuxt.com/) `ULink` component wraps `<NuxtLink>` and provides additional functionality:
 
-See [ULink]("/frameworks/nuxt 3/modules/ui/ULink") for more info.
+See [ULink]("/frameworks/nuxt 3/modules/ui3/ULink") for more info.

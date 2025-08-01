@@ -11,4 +11,4 @@ Nuxt components, located in specified directories, are automatically imported.
 
 ## Rendering
 
-Nuxt components can designed for universal, client-side, server-side, [edge-side](/content/frameworks/nuxt/rendering/esr/index.md), or a combination of rendering strategies.
+Nuxt components can designed for universal, client-side, server-side, [edge-side](/content/frameworks/nuxt/rendering/esr/index), or a combination of rendering strategies.

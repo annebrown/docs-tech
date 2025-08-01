@@ -355,7 +355,7 @@ Superscript <sup>The quick brown fox jumps over the lazy dog.</sup>
 
 ## Text Color
 
-Using [MathJax](#mathematical-expressions-19-july-2022) syntax:
+Using MathJax syntax:
 
 | Color Name      | Code                                                                                         | Example                                                        |
 |-----------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------|

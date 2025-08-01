@@ -6,7 +6,7 @@ lastModified: '2025-04-05'
 
 ## Description
 
-Using styles in Nuxt 3 using Tailwind 4, [@nuxt/ui 3](./modules/ui3/index.md), and [@nuxt/fonts](./modules/fonts/index.md).
+Using styles in Nuxt 3 using Tailwind 4, [@nuxt/ui 3](./modules/ui3), and [@nuxt/fonts](./modules/fonts.
 
 
 ## Usage

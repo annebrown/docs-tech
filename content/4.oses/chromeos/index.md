@@ -14,7 +14,7 @@ lastModified: '2025-01-08'
 
 ## Developer Mode
 
-1. Enter [ChromeOS Recovery Mode](#chromeos-recovery-mode)
+1. Enter ChromeOS Recovery Mode
 2. Select Advanced Options > Developer Mode or Ctrl-D
 3. Press Spacebar to turn on OS verification.
 4. Scroll down to Advanced options and choose Developer Mode or Ctrl-D

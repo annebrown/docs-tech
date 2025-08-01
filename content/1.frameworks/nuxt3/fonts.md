@@ -6,11 +6,11 @@ lastModified: '2025-04-06'
 
 ## Description
 
-Configure fonts for global use in a Nuxt 3 app, using Tailwind 4, [@nuxt/ui 3](./modules/ui3/index.md), and [@nuxt/fonts](./modules/fonts/index.md).
+Configure fonts for global use in a Nuxt 3 app, using Tailwind 4, [@nuxt/ui 3](./modules/ui3/), and [@nuxt/fonts](./modules/fonts/).
 
 ## Fonts Provider
 
-To configure fronts provider, see [@nuxt/fonts module](./modules/fonts/index.md)
+To configure fronts provider, see [@nuxt/fonts module](./modules/fonts/index)
 
 ## Global Variables
 
@@ -26,10 +26,6 @@ Define custom font variables in main css file:
   /* Other Variables */
 }
 ```
-
-## @nuxt/ui 3
-
-To configure and use fonts for @nuxt/ui 3 components, see [@Nuxt/UI Config](./modules/ui3/config.md/).
 
 ## Usage
 

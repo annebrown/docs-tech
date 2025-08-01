@@ -12,13 +12,13 @@ Also: `Menu > Edit > Preferences` or `Ctrl+comma`
 
 ## Plugins Locn
 
-## [dotfiles](../../../dev/projects/index.md)
+## [dotfiles](https://github.com/annebrown/dotfiles)
 
 ## Prepare dotfiles config
 
 If a Hyper config is already present in dotfiles, delete the newly installed config file.
 
-Otherwise move settings file to [dotfiles](../../../dev/projects/index.md):
+Otherwise move settings file to [dotfiles](https://github.com/annebrown/dotfiles):
 
 ```bash
 mkdir ~/.dotfiles/hyper ~/.dotfiles/hyper/.config ~/.dotfiles/hyper/.config/Hyper

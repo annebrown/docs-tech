@@ -231,4 +231,4 @@ plugins:
 
 ## VSCode YAML Schema
 
-Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../tools/vscode/extensions.md#yaml)
+Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../tools/vscode/extensions#yaml)

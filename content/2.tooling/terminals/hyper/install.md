@@ -39,10 +39,10 @@ sudo chmod 4755 /opt/Hyper/chrome-sandbox
 
 ## Reload
 
-Reload term to pick up [dotfiles](../../../dev/projects/index.md) customized config, if exists:
+Reload term to pick up [dotfiles](../../../dev/projects/index) customized config, if exists:
 
  `Menu > View>  Reload` or `Ctrl-Shift-R`
 
  Also reload, if at first, `rt-mouse-button` doesn't trigger context menu.
 
-## [Config](config.md)
+## [Config](config)

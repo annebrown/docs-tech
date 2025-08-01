@@ -27,7 +27,7 @@ nuxt.profile
 bookmarks.xml
 ```
 
-Use [dotfiles](../../../dev/projects/index.md) to store Konsole config.
+Use [dotfiles](https://github.com/annebrown/dotfiles) to store Konsole config.
 
 ## Create New Profile
 

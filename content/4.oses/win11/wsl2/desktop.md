@@ -35,7 +35,7 @@ pkill Xwayland; Xwayland :1 & xw_pid=$!; WAYLAND_DISPLAY= DISPLAY=:1 dbus-launch
 
 Ref: [Easiest WSL2 Desktop Setup Possible](https://www.reddit.com/r/bashonubuntuonwindows/comments/1ajbzyk/easiest_wsl2_desktop_setup_possible/?onetap_auto=true&one_tap=true)
 
-## [Config Dev Env](../../linux/new-dev-env.md)
+## [Config Dev Env](../../linux/new-dev-env)
 
 ## Install Chrome
 
