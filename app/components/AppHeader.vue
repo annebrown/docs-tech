@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { ContentNavigationItem } from '@nuxt/content'
+    import type { ContentNavigationItem } from '@nuxt/content'
 
-const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+    const items = inject<Ref<ContentNavigationItem[]>>('navigation')
 
-const { header } = useAppConfig()
+    const { header } = useAppConfig()
 </script>
 
 <template>
@@ -40,22 +40,21 @@ const { header } = useAppConfig()
         <div class="mt-11">
 
             <!-- Logo -->
-            <NuxtLink href='/'>
+            <ULink to='/'>
                 <Logo class="z-0 inline-block w-18 h-auto
                     m-0 p-1 pr-0"/>
-            </NuxtLink>
+            </ULink>
 
             <!-- Domain Name -->
-            <div class='z-10 inline-block align-top pt-5 pl-0.25
-                text-[--accent-light] dark:text-[--accent-dark]'>
+            <div class='z-10 inline-block align-top pt-5 pl-0.25'>
 
-                <NuxtLink href='/'>
+                <ULink to='/'>
                     <span class="w-fit h-fit m-0 p-0
                         text-primary text-[12px]"
                     >
-                        -<span class="text-(--ui-secondary)">tech</span><a href="https://annebrown.ca">.annebrown.ca</a>
+                        -<span class="text-(--ui-secondary)">tech</span><ULink to="https://annebrown.ca">.annebrown.ca</ULink>
                     </span>
-                </NuxtLink>
+                </ULink>
 
              </div><!-- Domain Name -->
 
@@ -83,8 +82,9 @@ const { header } = useAppConfig()
     <template #body>
       <UContentNavigation
         highlight
-        :navigation="navigation"
+        :navigation="items"
       />
+       <!-- <UTree v-if="items" :items="items" /> -->
     </template>
   </UHeader>
 </template>

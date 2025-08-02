@@ -85,7 +85,7 @@ const links = computed(() => {
                         type="solid"
                         />
 
-                        <UPageLinks
+                        <UPageLinks v-if="toc"
                             :title="toc.bottom.title"
                             :links="links"
                         />

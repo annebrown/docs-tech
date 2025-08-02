@@ -29,21 +29,20 @@
 
 <script setup lang="ts">
 const route = useRoute()
-const currentPath = route.path
 
-const { data: allSubpages } = await useAsyncData(`subpages-${currentPath}`, () =>
+const { data: allSubpages } = await useAsyncData(`subpages-${route.path}`, () =>
   queryCollection('docsTech')
-    .where('path', 'LIKE', `${currentPath}/%`)
-    .where('path', '<>', currentPath)
+    .where('path', 'LIKE', `${route.path}/%`)
+    .where('path', '<>', route.path)
     .all()
 )
 
-// Filter to get only immediate children
-const immediateSubpages = computed(() => {
-  if (!allSubpages.value) return []
-  return allSubpages.value.filter(page => {
-    const relativePath = page.path.slice(currentPath.length)
-    return !relativePath.slice(1).includes('/')
-  })
-})
+    // Filter to get only immediate children
+    const immediateSubpages = computed(() => {
+        if (!allSubpages.value) return []
+        return allSubpages.value.filter(page => {
+        const relativePath = page.path.slice(route.path.length)
+        return !relativePath.slice(1).includes('/')
+        })
+    })
 </script>

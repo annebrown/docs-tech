@@ -68,8 +68,8 @@ Appearance:
 
 ```html
 <div class="ab-buttons">
-    <div class="item-00 box1"><a href="install/"><p>Install</p></a></div>
-    <div class="item-00 box1"><a href="config/"><p>Config</p></a></div>
-    <div class="item-00 box1"><a href="plugins/"><p>Plugins</p></a></div>
+    <div class="item-00 box1"><ULink to="install/"><p>Install</p></ULink></div>
+    <div class="item-00 box1"><ULink to="config/"><p>Config</p></ULink></div>
+    <div class="item-00 box1"><ULink to="plugins/"><p>Plugins</p></ULink></div>
 </div>
 ```

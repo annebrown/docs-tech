@@ -5,6 +5,6 @@ navigation: false
 lastModified: '2025-03-17'
 ---
 
- ## Description
+## Description
 
 Apps and utilities for enhanced workflow and code quality.

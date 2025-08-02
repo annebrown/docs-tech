@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
-
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+
 </script>
 
 <template>
@@ -11,16 +11,17 @@ const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
         <UPageAside>
           <UContentNavigation
             highlight
-            :navigation="navigation"
+            :navigation="items"
           />
+           <!-- <UTree v-if="items" :items="items" /> -->
         </UPageAside>
       </template>
 
       <slot />
 
     <!-- Child Route Cards-->
-    <div class="mt-4 mx-auto p-2 rounded-lg bg-(--ab-midships)">
-        <ImmediateChildCards />
+    <div class="mx-auto p-2 rounded-lg bg-(--ab-midships)">
+        <!-- <ImmediateChildCards /> -->
     </div>
 
     </UPage>
