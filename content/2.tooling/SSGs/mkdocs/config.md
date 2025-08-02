@@ -8,7 +8,7 @@ lastModified: '2025-01-08'
 
 Most of MkDocs config is done in the `[proj-dir]/mkdocs.yml` file.  For some plugins, order matters.
 
-The next section contains sample settings.  Some of these are covered [here]add-ons).
+The next section contains sample settings.  Some of these are covered [here](add-ons).
 
 ## Sample Settings
 
@@ -231,4 +231,4 @@ plugins:
 
 ## VSCode YAML Schema
 
-Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../Tooling/IDEs/vscode/extensions#yaml)
+Add MkDocs Schema to VSCode.  See [VSCode YAML Extension](../../IDEs/vscode/extensions#yaml)

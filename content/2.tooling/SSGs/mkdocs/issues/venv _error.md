@@ -45,4 +45,4 @@ hint: See PEP 668 for the detailed specification.
 
 ## Solution
 
-Use Python venv for project.  See [Install](../../../../languages/ruby/install) for correct install method.
+Use Python venv for project.  See [Install](../../../../languages/python) for correct install method.

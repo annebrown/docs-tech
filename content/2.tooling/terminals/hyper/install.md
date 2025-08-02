@@ -47,4 +47,4 @@ Reload term to pick up [dotfiles](https://github.com/annebrown/dotfiles) customi
 
 ## Config
 
-See [Config]config).
+See [Config](config).
