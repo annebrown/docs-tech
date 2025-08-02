@@ -23,4 +23,4 @@ theme:
   name: material
 ```
 
-MkDocs and Material for MkDocs have a rich set of available themes, plugins and Python Markdown extensions, some of which are built-in.  Here are some of these [add-ons](../add-ons).
+MkDocs and Material for MkDocs have a rich set of available themes, plugins and Python Markdown extensions, some of which are built-in.  Here are some of these [add-ons](../).
