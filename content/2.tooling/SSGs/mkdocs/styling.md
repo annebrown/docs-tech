@@ -90,7 +90,7 @@ Line 76 in Markdown file: Missing end of coment tag
 
 ## Page-Specific Styling
 
-To add custom styles to a specific page, add the [md_in_html](../mkdocs/add-ons/md_in_html) extension to `meta.yml`:
+To add custom styles to a specific page, add the [md_in_html](add-ons/md_in_html) extension to `meta.yml`:
 
 ```yml
 markdown_extensions:
