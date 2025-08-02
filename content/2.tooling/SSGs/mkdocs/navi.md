@@ -28,3 +28,6 @@ If both an `index.md` and a `README.md` are found in a dir, `README.md` is ignor
 
 [mkdocs-awesome-pages-plugin](/docs-tech/tooling/ssgs/mkdocs/add-ons/mkdocs-awesome-pages-plugin) provides essential, custom navi.
 
+
+/docs-tech/tooling/ssgs/mkdocs/add-ons/mkdocs-awesome-pages-plugin - 404
+/docs-tech/tooling/ssgs/mkdocs/add-ons/mkdocs-awsome-pages-plugin- Working
