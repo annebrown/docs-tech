@@ -80,7 +80,7 @@
     </template>
 
     <template #body>
-        <div class="absolute top-0 right-0">
+        <div class="absolute top-0 right-0 w-fit h-fit">
             <UContentNavigation
                 highlight
                 :navigation="items"
