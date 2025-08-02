@@ -7,7 +7,7 @@ lastModified: '2025-03-14'
 
 ## Issues
 
-See [Nuxt Issues] for past problems and errors.
+See [Nuxt Issues](issues) for past problems and errors.
 
 ## Troubleshooting
 
