@@ -8,7 +8,7 @@ lastModified: '2025-01-08'
 
 ## Install
 
-In the project [venv](../../../../languages/python#activate-venv):
+In the project [venv](/docs-tech/languages/python#activate-venv):
 
 ```bash
 pip install mkdocs-material
@@ -23,4 +23,4 @@ theme:
   name: material
 ```
 
-MkDocs and Material for MkDocs have a rich set of available themes, plugins and Python Markdown extensions, some of which are built-in.  Here are some of these [add-ons](../).
+MkDocs and Material for MkDocs have a rich set of available themes, plugins and Python Markdown extensions, some of which are built-in.  Here are some of these [add-ons](/docs-tech/tooling/ssgs/mkdocs/add-ons).
