@@ -65,7 +65,7 @@
     <template #right>
       <UContentSearchButton
         v-if="header?.search"
-        class="lg:hidden"
+        class="relative lg:hidden"
       />
 
       <UColorModeButton v-if="header?.colorMode" />
@@ -80,11 +80,13 @@
     </template>
 
     <template #body>
-      <UContentNavigation
-        highlight
-        :navigation="items"
-      />
-       <!-- <UTree v-if="items" :items="items" /> -->
+        <div class="absolute top-0 right-0">
+            <UContentNavigation
+                highlight
+                :navigation="items"
+            />
+        </div>
+        <!-- <UTree v-if="items" :items="items" /> -->
     </template>
   </UHeader>
 </template>
