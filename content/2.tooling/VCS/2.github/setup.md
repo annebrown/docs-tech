@@ -31,5 +31,3 @@ sudo apt install gh
 ```bash
 gh auth login # Opens browser for authn
 ```
-
-### [Two Factor Authn](../../oses/linux/new-dev-env#two-factor-authn)
