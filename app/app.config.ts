@@ -79,7 +79,7 @@ export default defineAppConfig({
         links: [
             {
                 'icon': 'i-simple-icons-github',
-                'to': 'https://github.com/annebrown/pub',
+                'to': 'https://github.com/annebrown/docs-tech',
                 'target': '_blank',
                 'aria-label': 'GitHub'
             }
@@ -91,7 +91,7 @@ export default defineAppConfig({
         links: [
             {
                 'icon': 'i-simple-icons-github',
-                'to': 'https://github.com/annebrown',
+                'to': 'https://github.com/annebrown/docs-tech',
                 'target': '_blank',
                 'aria-label': 'annebrown on GitHub'
             }
