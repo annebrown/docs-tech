@@ -8,7 +8,7 @@ definePageMeta({
 
 const route = useRoute()
 const { toc } = ""
-const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+const navigation = inject<Ref<ContentNavigationItem[]>>('items')
 
 const { data: page } = await useAsyncData(route.path, () => queryCollection('docsTech').path(route.path).first())
 if (!page.value) {
@@ -56,10 +56,10 @@ const links = computed(() => {
         />
 
         <UPageBody>
-            <ContentRenderer v-if="page" :value="page" />
+            <ContentRenderer v-if="page" :value="page" class="py-0 my-0"/>
 
             <USeparator v-if="surround?.length"  type="solid" />
-
+<USeparator type="solid" color="secondary" class="mb-5 pb-0"/>
             <UContentSurround :surround="surround" />
         </UPageBody>
 

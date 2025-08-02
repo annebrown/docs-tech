@@ -20,8 +20,9 @@ const items = inject<Ref<ContentNavigationItem[]>>('navigation')
       <slot />
 
     <!-- Child Route Cards-->
-    <div class="mx-auto p-2 rounded-lg bg-(--ab-midships)">
-        <!-- <ImmediateChildCards /> -->
+    <div class="w-full mx-auto p-0 px-2 rounded-lg bg-(--ab-midships)">
+        <USeparator type="solid" color="secondary" class="pb-8"/>
+        <ImmediateChildCards />
     </div>
 
     </UPage>

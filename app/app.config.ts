@@ -9,12 +9,19 @@ export default defineAppConfig({
     uiPro: {
         contentNavigation: {
             slots: {
+                root: 'data-[state=open]:-mr-8',
                 container: 'max-w-fit h-fit',
                 list: 'isolate -mx-2.5 -mt-1',
                 item: 'my-0',
                 listWithChildren: 'ms-2 mb-0.5',
                 itemWithChildren: 'data-[state=open]:mb-0.5',
                 link: 'py-0.5 before:inset-y-0 gap-1.5 text-xs leading-tight'
+            }
+        },
+        contentSurround: {
+            slots: {
+                root: 'mt-0',
+                link: 'pt-0'
             }
         },
         contentToc: {
@@ -40,10 +47,11 @@ export default defineAppConfig({
             base: 'min-h-fit bg-(--ab-midships) mx-4 py-12'
         },
         pageBody: {
-            base: 'bg-(--ab-midships)'
+            base: 'py-0 bg-(--ab-midships)'
         },
         page: {
             slots: {
+                container: 'm-0 p-0',
                 center: 'bg-(--ab-midships) rounded',
                 left: 'card-glass-narrow h-fit max-w-100 md:max-w-fit bg-(--ab-port-gunnel)',
                 right: 'card-glass-narrow w-fit h-fit bg-(--ab-port-gunnel)'
