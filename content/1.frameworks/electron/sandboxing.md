@@ -10,4 +10,4 @@ Electron uses the Chromium engine for most of its core functionality.  It theref
 
 ## setuid Bit
 
-chrome-sandbox requires special root permissions, or Electron will refuse to run and will exit with a SIGTRAP error. See [Sandboxing Issue](../sandboxing) for instructions on how to set the correct file permissions for the chrome-sandbox binary.
+chrome-sandbox requires special root permissions, or Electron will refuse to run and will exit with a SIGTRAP error. See [Sandboxing Issue](issues/SIGTRAP) for instructions on how to set the correct file permissions for the chrome-sandbox binary.
