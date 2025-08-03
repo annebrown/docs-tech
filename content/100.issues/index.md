@@ -9,4 +9,4 @@ lastModified: 2025-03-28
 
 Bugs, Errors and Features
 
-See [Issues](https://annebrown.ca/meta/issues).
+See [Issues](https://issues.annebrown.ca).
