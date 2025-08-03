@@ -79,8 +79,8 @@ export default defineAppConfig({
         to: '/',
         logo: {
             alt: 'Two sails with initials, AB',
-            light: '/logo.svg',
-            dark: '/logo.svg'
+            light: 'logo.svg',
+            dark: 'logo.svg'
         },
         search: true,
         colorMode: true,
@@ -104,6 +104,11 @@ export default defineAppConfig({
                 'aria-label': 'annebrown on GitHub'
             }
         ]
+    },
+    separator: {
+        slots: {
+            ui: 'border-primary'
+        },
     },
     toc: {
         title: 'Shortcuts',
@@ -131,5 +136,6 @@ export default defineAppConfig({
                 }
             ]
         }
-    }
+    },
+    flags: { debug: false }
 })

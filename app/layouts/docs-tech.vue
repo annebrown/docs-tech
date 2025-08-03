@@ -1,30 +1,29 @@
 <script setup lang="ts">
-import type { ContentNavigationItem } from '@nuxt/content'
-const items = inject<Ref<ContentNavigationItem[]>>('navigation')
+    import type { ContentNavigationItem } from '@nuxt/content'
 
+    const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 </script>
 
 <template>
-  <UContainer class="mx-0 px-0">
-    <UPage>
-      <template #left class="">
-        <UPageAside>
-          <UContentNavigation
-            highlight
-            :navigation="items"
-          />
-           <!-- <UTree v-if="items" :items="items" /> -->
-        </UPageAside>
-      </template>
+    <UContainer class="mx-0 px-0">
+        <UPage>
+            <template #left class="">
+                <UPageAside>
+                    <UContentNavigation
+                    highlight
+                    :navigation="navigation"
+                    />
+                    <!-- <UTree v-if="items" :items="items" /> -->
+                </UPageAside>
+            </template>
 
-      <slot />
+            <slot />
 
-    <!-- Child Route Cards-->
-    <div class="w-full mx-auto p-0 px-2 rounded-lg bg-(--ab-midships)">
-        <USeparator type="solid" color="secondary" class="pb-8"/>
-        <ImmediateChildCards />
-    </div>
+            <!-- Child Route Cards-->
+            <div class="w-full mx-auto p-0 px-2">
+                <ImmediateChildCards />
+            </div>
 
-    </UPage>
-  </UContainer>
+        </UPage>
+    </UContainer>
 </template>

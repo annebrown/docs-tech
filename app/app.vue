@@ -1,42 +1,28 @@
 <script setup lang="ts">
-import { mapContentNavigation } from '@nuxt/ui-pro/utils/content'
+    useHead({
+    meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    ],
+    link: [
+        { rel: 'icon', href: '/favicon.ico' }
+    ],
+    htmlAttrs: {
+        lang: 'en'
+    }
+    })
 
+    const route = useRoute()
+    const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docsTech'))
+    const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('docsTech'), {
+        server: false
+    })
 
-const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docsTech'))
+    // Remove apex entry
+    // const mappedNavigation = mapContentNavigation(navigation)
+    // const naviTree = mappedNavigation.slice(1)
 
-// const items = computed(() => mapContentNavigation(navigation.value))
-// Remove apex entry
-const items = computed(() => {
-  const mapped = mapContentNavigation(navigation.value)
-  return mapped.slice(1)
-})
-
-const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('docsTech'), {
-  server: false
-})
-
-useHead({
-  meta: [
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-  ],
-  link: [
-    { rel: 'icon', href: '/favicon.ico' }
-  ],
-  htmlAttrs: {
-    lang: 'en'
-  }
-})
-
-// Markdown Descr
-const { data: mdDocs } = await useAsyncData('documents-list', () => {
-  return queryCollection('docsTech')
-    .select('title', 'path', 'description')
-    .all()
-})
-
-provide('navigation', navigation)
-provide('items', items)
-provide('mdDocs', mdDocs)
+    provide('navigation', navigation)
+    // provide('naviTree', naviTree)
 </script>
 
 <template>

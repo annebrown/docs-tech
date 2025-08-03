@@ -6,10 +6,12 @@ definePageMeta({
   layout: 'docs-tech'
 })
 
+const app = useAppConfig()
 const route = useRoute()
-const { toc } = ""
-const navigation = inject<Ref<ContentNavigationItem[]>>('items')
 
+const toc = ""
+// const naviTree = inject<Ref<ContentNavigationItem[]>>('naviTree')
+    const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 const { data: page } = await useAsyncData(route.path, () => queryCollection('docsTech').path(route.path).first())
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
@@ -23,8 +25,6 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
 
 const title = page.value.title
 const description = page.value.description
-
-
 const headline = computed(() => findPageHeadline(navigation?.value, page.value))
 
 defineOgImageComponent('Docs-Tech', {
@@ -48,6 +48,7 @@ const links = computed(() => {
 
 <template><div>
     <UPage v-if="page">
+
         <UPageHeader
             :title="page.title"
             :description="page.description"
@@ -56,43 +57,49 @@ const links = computed(() => {
         />
 
         <UPageBody>
+
+            <DebugObject v-if="app.flags.debug" :someArray="navigation" :x="2"/>
+
             <ContentRenderer v-if="page" :value="page" class="py-0 my-0"/>
 
-            <USeparator v-if="surround?.length"  type="solid" />
-<USeparator type="solid" color="secondary" class="mb-5 pb-0"/>
+            <USeparator v-if="surround?.length"  type="solid" color="secondary" class="mb-5 pb-0"/>
+
             <UContentSurround :surround="surround" />
+
         </UPageBody>
 
+        <!-- Star Gunnel -->
         <template
             v-if="page?.body?.toc?.links?.length"
             #right
             >
-        <div class="">
-            <UContentToc
-                :title="toc?.title"
-                :links="page.body?.toc?.links"
-            >
-                <template
-                v-if="toc?.bottom"
-                #bottom
+            <div class="">
+                <UContentToc
+                    :title="toc?.title"
+                    :links="page.body?.toc?.links"
                 >
-                    <div
-                    class="hidden lg:block space-y-6"
-                    :class="{ '!mt-6': page.body?.toc?.links?.length }"
+                    <template
+                    v-if="toc?.bottom"
+                    #bottom
                     >
-                        <USeparator
-                        v-if="page.body?.toc?.links?.length"
-                        type="solid"
-                        />
+                        <div
+                        class="hidden lg:block space-y-6"
+                        :class="{ '!mt-6': page.body?.toc?.links?.length }"
+                        >
+                            <USeparator
+                            v-if="page.body?.toc?.links?.length"
+                            type="solid"
+                            />
 
-                        <UPageLinks v-if="toc"
-                            :title="toc.bottom.title"
-                            :links="links"
-                        />
-                    </div>
-                </template>
-            </UContentToc>
-        </div>
-    </template>
+                            <UPageLinks v-if="toc"
+                                :title="toc.bottom.title"
+                                :links="links"
+                            />
+                        </div>
+                    </template>
+                </UContentToc>
+            </div>
+        </template><!-- Star Gunnel -->
+
     </UPage>
 </div></template>
