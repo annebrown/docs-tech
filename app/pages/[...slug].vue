@@ -1,20 +1,25 @@
 <script setup lang="ts">
-import type { ContentNavigationItem } from '@nuxt/content'
-import { findPageHeadline } from '#ui-pro/utils/content'
+    import { findPageHeadline } from '@nuxt/content/utils'
+
 
 definePageMeta({
   layout: 'docs-tech'
 })
 
-const app = useAppConfig()
 const route = useRoute()
 
+const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 const toc = ""
-// const naviTree = inject<Ref<ContentNavigationItem[]>>('naviTree')
-    const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
-const { data: page } = await useAsyncData(route.path, () => queryCollection('docsTech').path(route.path).first())
+
+const { data: page } = await useAsyncData(
+    route.path,
+    () => queryCollection('docsTech').path(route.path).first()
+)
 if (!page.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Page not found',
+    fatal: true })
 }
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
@@ -23,8 +28,6 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   })
 })
 
-const title = page.value.title
-const description = page.value.description
 const headline = computed(() => findPageHeadline(navigation?.value, page.value))
 
 defineOgImageComponent('Docs-Tech', {
@@ -38,7 +41,6 @@ const links = computed(() => {
       icon: 'i-lucide-external-link',
       label: 'Edit this page',
       to: `${toc.bottom.edit}/${page?.value?.stem}.${page?.value?.extension}`,
-      target: '_blank'
     })
   }
 
@@ -47,6 +49,7 @@ const links = computed(() => {
 </script>
 
 <template><div>
+
     <UPage v-if="page">
 
         <UPageHeader
@@ -58,32 +61,31 @@ const links = computed(() => {
 
         <UPageBody>
 
-            <DebugObject v-if="app.flags.debug" :someArray="navigation" :x="2"/>
+            <DebugObject v-if="0" :items="navigation" />
 
             <ContentRenderer v-if="page" :value="page" class="py-0 my-0"/>
 
-            <USeparator v-if="surround?.length"  type="solid" color="secondary" class="mb-5 pb-0"/>
+            <USeparator v-if="surround?.length" />
 
             <UContentSurround :surround="surround" />
 
         </UPageBody>
 
         <!-- Star Gunnel -->
-        <template
-            v-if="page?.body?.toc?.links?.length"
-            #right
-            >
-            <div class="">
+        <template v-if="page?.body?.toc?.links?.length" #right>
+            <div class="card-glass-narrow">
+                <!-- Page TOC -->
                 <UContentToc
                     :title="toc?.title"
                     :links="page.body?.toc?.links"
                 >
+                    <!-- Links Under TOC -->
                     <template
                     v-if="toc?.bottom"
                     #bottom
                     >
                         <div
-                        class="hidden lg:block space-y-6"
+                        class="hidden md:block space-y-6"
                         :class="{ '!mt-6': page.body?.toc?.links?.length }"
                         >
                             <USeparator

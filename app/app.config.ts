@@ -1,3 +1,5 @@
+import { contentSearch } from "#build/ui-pro";
+
 export default defineAppConfig({
     ui: {
         colors: {
@@ -9,9 +11,9 @@ export default defineAppConfig({
     uiPro: {
         contentNavigation: {
             slots: {
-                root: 'data-[state=open]:-mr-8',
-                container: 'max-w-fit h-fit',
-                list: 'isolate -mx-2.5 -mt-1',
+        //         root: '',
+                container: 'w-fit h-fit',
+        //         list: '',
                 item: 'my-0',
                 listWithChildren: 'ms-2 mb-0.5',
                 itemWithChildren: 'data-[state=open]:mb-0.5',
@@ -53,10 +55,11 @@ export default defineAppConfig({
             slots: {
                 container: 'm-0 p-0',
                 center: 'bg-(--ab-midships) rounded',
-                left: 'card-glass-narrow h-fit max-w-100 md:max-w-fit bg-(--ab-port-gunnel)',
+                left: 'card-glass-narrow h-fit bg-(--ab-port-gunnel)',
                 right: 'card-glass-narrow w-fit h-fit bg-(--ab-port-gunnel)'
             }
         },
+
         pageFeature: {
             slots: {
                 root: 'p-4 card-glass-link leading-5',
@@ -104,11 +107,6 @@ export default defineAppConfig({
                 'aria-label': 'annebrown on GitHub'
             }
         ]
-    },
-    separator: {
-        slots: {
-            ui: 'border-primary'
-        },
     },
     toc: {
         title: 'Shortcuts',

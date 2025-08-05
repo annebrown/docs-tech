@@ -19,7 +19,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 ### Config
 
-Append to .bashrc
+Append to `.bashrc`:
 
 ```bash
 export NVM_DIR="$HOME/.nvm"

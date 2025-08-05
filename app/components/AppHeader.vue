@@ -1,93 +1,85 @@
 <script setup lang="ts">
-    import type { ContentNavigationItem } from '@nuxt/content'
-
+    import type { DropdownMenuItem } from '@nuxt/ui'
+    // const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+    const { header } = useAppConfig()
     const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 
-    const { header } = useAppConfig()
 </script>
 
-<template>
+<template><div>
     <UHeader
         :ui="{ center: 'flex-1' }"
         :to="header?.to || '/'"
-        class="border-none"
+        side="left"
+        toggle-side="right"
+        mode="slideover"
     >
-    <UContentSearchButton
-        v-if="header?.search"
-        :collapsed="false"
-        class="w-full"
-    />
+        <template #title>
+            <!-- Logo and Domain Name -->
+            <div class="mt-10">
 
-    <template
-        v-if="header?.logo?.dark || header?.logo?.light || header?.title"
-        #title
-    >
-        <UColorModeImage
-            v-if="header?.logo?.dark || header?.logo?.light"
-            :light="header?.logo?.light!"
-            :dark="header?.logo?.dark!"
-            :alt="header?.logo?.alt"
-            class="h-6 w-auto shrink-0"
-        />
-
-    </template>
-
-    <template
-
-      #left
-    >
-        <!-- Logo and Domain Name -->
-        <div class="mt-11">
-
-            <!-- Logo -->
-            <ULink to='/'>
-                <Logo class="z-0 inline-block w-18 h-auto
-                    m-0 p-1 pr-0"/>
-            </ULink>
-
-            <!-- Domain Name -->
-            <div class='z-10 inline-block align-top pt-5 pl-0.25'>
-
-                <ULink to='/'>
-                    <span class="w-fit h-fit m-0 p-0
-                        text-primary text-[12px]"
-                    >
-                        -<span class="text-(--ui-secondary)">tech</span><ULink to="https://annebrown.ca">.annebrown.ca</ULink>
-                    </span>
+                <!-- Logo -->
+                <ULink href='/'>
+                    <Logo class="z-0 inline-block w-18 h-auto
+                        m-0 p-1 pr-0"/>
                 </ULink>
 
-             </div><!-- Domain Name -->
+                <!-- Domain Name -->
+                <div class='z-10 inline-block align-top pt-5 pl-0.25
+                    text-[--accent-light] dark:text-[--accent-dark]'>
 
-         </div><!-- Logo and Domain Name -->
+                    <ULink href='/'>
+                        <span class="w-fit h-fit m-0 p-0
+                            text-primary text-[12px]"
+                        >
+                            -<span class="text-(--ui-secondary)">tech</span>.annebrown.ca
+                        </span>
+                    </ULink>
 
-    </template>
+                </div><!-- Domain Name -->
 
-    <template #right>
-        <UContentSearchButton
-            v-if="header?.search"
-            class="relative lg:hidden"
-        />
+            </div><!-- Logo and Domain Name -->
+        </template>
 
-      <UColorModeButton v-if="header?.colorMode" />
+        <!-- Search Bar -->
+        <UContentSearchButton :collapsed="false" class="w-full" />
 
-        <template v-if="header?.links">
+        <!-- Right Header -->
+        <template #right>
+
+            <UContentSearchButton
+                v-if="header?.search"
+                class="relative lg:hidden text-primary"
+            />
+
+            <UColorModeButton class="text-primary" />
+
+
             <UButton
                 v-for="(link, index) of header.links"
                 :key="index"
-                v-bind="{ color: 'neutral', variant: 'ghost', ...link }"
+                v-bind="{ color: 'neutral', variant: 'link', ...link }"
             />
-        </template>
-    </template>
 
-    <template #body>
-        <div class="absolute top-0 right-0 w-fit h-fit">
+            <!-- <UDropdownMenu v-model:open="open" :items="items" :ui="{ content: 'w-48' }">
+                <UButton label="Open" color="neutral" variant="outline" icon="i-lucide-menu" />
+            </UDropdownMenu> -->
+            <!-- <UDropdownMenu
+                orientation="vertical"
+                :items="items"
+                to="/docs-tech"
+                variant="link"
+            >
+                <UButton icon="i-lucide-menu" color="neutral" variant="outline" />
+            </UDropdownMenu> -->
+
+
+        </template>
+        <template #body>
             <UContentNavigation
                 highlight
-                :navigation=navigation
+                :navigation="navigation"
             />
-        </div>
-        <!-- <UTree v-if="items" :items="items" /> -->
-    </template>
-
-  </UHeader>
-</template>
+        </template>
+    </UHeader>
+</div></template>

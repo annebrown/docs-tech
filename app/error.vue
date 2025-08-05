@@ -1,28 +1,24 @@
 <script setup lang="ts">
 import type { NuxtError } from '#app'
 
-defineProps<{
-  error: NuxtError
-}>()
+    defineProps<{
+        error: NuxtError
+    }>()
 
-useHead({
-  htmlAttrs: {
-    lang: 'en'
-  }
-})
+    useHead({
+        htmlAttrs: {
+            lang: 'en'
+        }
+    })
+const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 
-const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docsTech'))
-const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('docsTech'), {
-  server: false
-})
-
-provide('navigation', navigation)
 </script>
 
 <template>
   <UApp>
     <AppHeader />
 
+    <h2>AH CRAP!</h2>
     <UError :error="error" />
 
     <AppFooter />

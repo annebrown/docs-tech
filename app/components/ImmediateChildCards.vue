@@ -1,28 +1,29 @@
 <script setup lang="ts">
     import { UPageFeature, UPageSection } from '#components'
-    import type { ContentNavigationItem } from '@nuxt/content'
     import { findPageChildren } from '@nuxt/content/utils'
     import { useRoute } from 'vue-router'
 
     const route = useRoute()
-    // const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
-    const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+import type { ContentNavigationItem } from '@nuxt/content'
 
+const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+    // const originalNavigation = inject('navigation')
+    // const newNavigation = useNaviTree(originalNavigation)
 
-    // Get immediate children for the current route
-    const immediateChildren = computed(() =>
-        findPageChildren(navigation?.value, route.path)
-    )
+    // const immediateChildren = computed(() =>
+    //     findPageChildren(navigation?.value, route.path)
+    // )
+
 </script>
 
 <template><div>
       <div
-        v-if="immediateChildren"
+        v-if="navigation"
         class=""
     >
 
         <!-- Debug -->
-        <p v-if=0>HAS immediateChildren</p>
+        <p v-if=0>HAS navigation</p>
 
         <!-- <USeparator type="solid" class="pb-4"/> -->
 
@@ -33,7 +34,7 @@
                         description: 'pb-4'
                     }"
                 >
-                    <div v-for="page in immediateChildren" :key="page.path">
+                    <div v-for="page in navigation" :key="page.path">
                         <UPageFeature
                             :to="page.path"
                             :title="page.title"

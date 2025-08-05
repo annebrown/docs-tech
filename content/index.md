@@ -1,4 +1,8 @@
 ---
+title: Tech Docs
+description: Technology Development Notes
+navigation: false
+lastModified: 2025-08-03
 seo:
   title: Tech Docs
   description: Technology Development Notes

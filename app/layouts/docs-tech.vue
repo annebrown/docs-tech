@@ -2,20 +2,21 @@
     import type { ContentNavigationItem } from '@nuxt/content'
 
     const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+
+
 </script>
 
 <template>
-    <UContainer class="mx-0 px-0">
-        <UPage>
-            <template #left class="">
-                <UPageAside>
-                    <UContentNavigation
-                    highlight
-                    :navigation="navigation"
-                    />
-                    <!-- <UTree v-if="items" :items="items" /> -->
-                </UPageAside>
-            </template>
+  <UContainer class="mx-0 px-0">
+    <UPage>
+      <template #left>
+        <UPageAside>
+          <UContentNavigation
+            highlight
+            :navigation="navigation"
+          />
+        </UPageAside>
+      </template>
 
             <slot />
 
