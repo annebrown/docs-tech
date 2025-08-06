@@ -66,13 +66,6 @@ export default defineNuxtConfig({
       description: 'Notes on Technology Development'
     },
     sections: [
-    //   {
-    //     title: 'Getting Started',
-    //     contentCollection: 'docsTech',
-    //     contentFilters: [
-    //       { field: 'path', operator: 'LIKE', value: '/getting-started%' }
-    //     ]
-    //   },
         {
         title: 'Frameworks',
         contentCollection: 'docsTech',

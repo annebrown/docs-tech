@@ -1,18 +1,19 @@
 <script setup lang="ts">
+
     import { UPageFeature, UPageSection } from '#components'
     import { findPageChildren } from '@nuxt/content/utils'
     import { useRoute } from 'vue-router'
+    import type { ContentNavigationItem } from '@nuxt/content'
 
     const route = useRoute()
-import type { ContentNavigationItem } from '@nuxt/content'
-
-const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+    const path = route.path
+    const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
     // const originalNavigation = inject('navigation')
-    // const newNavigation = useNaviTree(originalNavigation)
+    const newNavigation = useNaviTree(navigation)
 
-    // const immediateChildren = computed(() =>
-    //     findPageChildren(navigation?.value, route.path)
-    // )
+    const immediateChildren = computed(() =>
+        findPageChildren(newNavigation, path )
+    )
 
 </script>
 

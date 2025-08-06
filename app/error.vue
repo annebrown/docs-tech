@@ -1,5 +1,15 @@
 <script setup lang="ts">
-import type { NuxtError } from '#app'
+    import { findPageHeadline } from '@nuxt/content/utils'
+    import type { NuxtError } from '#app'
+
+    const title = 'Error'
+    const description = "Ah crap."
+    
+    definePageMeta({
+        title: title,
+        description: description,
+        layout: 'docs-tech'
+    })
 
     defineProps<{
         error: NuxtError
@@ -10,24 +20,43 @@ import type { NuxtError } from '#app'
             lang: 'en'
         }
     })
-const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+
+    const route = useRoute()
+    const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+
+
+const headline = computed(() => findPageHeadline(navigation, route.path))
+
 
 </script>
 
 <template>
   <UApp>
     <AppHeader />
+        <UPageHeader
+            :title="route.title"
+            :description="route.description"
+            :headline="headline"
+        />
+    <UMain   class="mx-2 md:mx-8 rounded-md">
+      <NuxtLayout>
 
-    <h2>AH CRAP!</h2>
+        <!-- Title -->
+        <h1 class="pt-6 pb-4  text-4xl font-extrabold text-center text-(--ui-secondary)">
+            {{ title }}
+        </h1>
+
+        <!-- Description -->
+        <p class="mt-4 mb-0 pb-0 pl-4">
+            {{ description }}
+        </p>
+
+        <hr class="mt-0 -ml-1 -mr-1 mb-10 pt-0 ab-hr">
     <UError :error="error" />
+      </NuxtLayout>
+    </UMain>
 
     <AppFooter />
 
-    <ClientOnly>
-      <LazyUContentSearch
-        :files="files"
-        :navigation="navigation"
-      />
-    </ClientOnly>
   </UApp>
 </template>

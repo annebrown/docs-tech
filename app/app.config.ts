@@ -66,6 +66,12 @@ export default defineAppConfig({
                 container: ''
             }
         },
+        pageHeader: {
+            slots: {
+                root: 'pb-0',
+                container: ''
+            }
+        },
         pageHero: {
             slots: {
                 container: 'w-full py-2 md:py-4 lg:py-8',

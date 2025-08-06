@@ -28,7 +28,7 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
   })
 })
 
-const headline = computed(() => findPageHeadline(navigation?.value, page.value))
+const headline = computed(() => findPageHeadline(navigation, route.path))
 
 defineOgImageComponent('Docs-Tech', {
   headline: headline.value

@@ -6,7 +6,7 @@ lastModified: '2025-03-22'
 
 ## Problem
 
-On first load, default layout `/layouts/default.vue` invokes `NaviNavigation.vue` to render expandable navigation tree.  On navigation to another route in the tree, page is displayed but content for navi tree element disappears.
+On first load, the default layout `/layouts/default.vue` invokes `NaviNavigation.vue` to render expandable navigation tree.  On navigation to another route in the tree, page is displayed but content for navi tree element disappears.
 
 ## Requirement
 

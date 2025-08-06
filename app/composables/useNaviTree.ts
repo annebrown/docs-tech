@@ -11,7 +11,7 @@ type MaybeRef<T> = T | Ref<T>;
  * @param someArray - The input array, which can be reactive (Ref) or plain.
  * @returns A computed Ref containing the new array with the first item removed.
  */
-export function useDebugNaviTree<T>(
+export function useNaviTree<T>(
   someArray: MaybeRef<T[]>
 ) {
   // Use computed to ensure reactivity and to create a new array
