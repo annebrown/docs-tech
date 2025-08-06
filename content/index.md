@@ -1,93 +1,16 @@
 ---
-title: Tech Docs
+title: Docs-Tech
 description: Technology Development Notes
-lastModified: 2025-08-03
-seo:
-  title: Tech Docs
-  description: Technology Development Notes
+navigation: false
+lastModified: 2025-03-25
 ---
 
-::u-page-hero
----
-orientation: horizontal
----
+## Description
 
-#title
-Tech Docs
+- Dev Notes
+- Public, headless, framework-agnostic data source
 
-#description
-Technology Development Notes
+## Purpose
 
-
-::
-
-::u-page-section
-
-#features
-  :::u-page-feature
-  ---
-  to: /docs-tech/frameworks
-  ---
-  #title
-  Frameworks
-
-  #description
-  Libs and rule sets providing structured development foundations
-  :::
-
-  :::u-page-feature
-  ---
-  to: /docs-tech/tooling
-  ---
-  #title
-  Tooling
-
-  #description
-  Apps and utilities for enhanced DX, workflow and code quality.
-  :::
-
-  :::u-page-feature
-  ---
-  to: /docs-tech/languages
-  ---
-  #title
-  Languages
-
-  #description
-  Compiled, scripted, markup, styling and dB query
-  :::
-
-  :::u-page-feature
-  ---
-  to: /docs-tech/oses
-  ---
-  #title
-  OSes
-
-  #description
-  Linux, Win11, ChromeOS, Android, RasPi
-  :::
-
-  :::u-page-feature
-  ---
-  to: /docs-tech/protocols
-  ---
-  #title
-  Protocols
-
-  #description
-  Rules governing interactions between entities.
-  :::
-
-  :::u-page-feature
-  ---
-  to: /docs-tech/graphics/
-  ---
-  #title
-  Graphics
-
-  #description
-  Fonts, images, and graphic design workflows
-  :::
-::
-
+- Capture, store and publish non-sensitive content
+- Dev reference

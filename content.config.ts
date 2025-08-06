@@ -4,13 +4,13 @@ export default defineContentConfig({
   collections: {
     landing: defineCollection({
       type: 'page',
-      source: 'index.md'
+      source: 'landing.md'
     }),
     docsTech: defineCollection({
       type: 'page',
       source: {
         include: '**',
-        exclude: ['index.md'],
+        exclude: ['landing.md'],
         prefix: '/docs-tech'
       },
       schema: z.object({

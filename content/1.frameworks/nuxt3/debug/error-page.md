@@ -17,7 +17,7 @@ lastModified: '2025-03-22'
 <p>Error message...</p>
 <p>Error: : {{ error.statusCode }}</p>
 <p>
-	<ULink to="javascript:history.back()" class="goback">
+	<ULink @click.prevent="goBack" class="goback">
 		<Icon name="ph:arrow-left" class="h-4 w-4 align-middle" />
         Go Back
     </ULink>
