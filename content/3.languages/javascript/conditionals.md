@@ -1,7 +1,6 @@
 ---
 title: Conditionals
-description: JavaScript Conditional Statements
-lastModified: '2025-01-08'
+description: JavaScript Conditional StatementslastModified: '2025-01-08'
 ---
 
 ## if, else if, else

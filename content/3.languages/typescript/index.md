@@ -1,7 +1,6 @@
 ---
 title: TypeScript
-description: JavaScript Superset
-lastModified: '2025-01-08'
+description: JavaScript SupersetlastModified: '2025-01-08'
 ---
 
 ## Description

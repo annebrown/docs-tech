@@ -1,7 +1,6 @@
 ---
 title: Add-Ons
 description: Mkdocs Plugins, Extensions and Themes
-navigation: false
 lastModified: '2025-01-08'
 ---
 

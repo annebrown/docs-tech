@@ -1,7 +1,6 @@
 ---
 title: Pinia
 description: Store Lib for Vue
-navigation: false
 lastModified: '2025-03-27'
 ---
 

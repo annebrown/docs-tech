@@ -1,7 +1,6 @@
 ---
 title: Formatters
-description: VSCode Formatters
-lastModified: '2025-03-11'
+description: VSCode FormatterslastModified: '2025-03-11'
 ---
 
 ## Prettier

@@ -1,7 +1,6 @@
 ---
 title: Navi
-description: Next.js Navi
-lastModified: '2025-01-08'
+description: Next.js NavilastModified: '2025-01-08'
 ---
 
 ## Install `responsive-navbar`

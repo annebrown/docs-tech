@@ -1,7 +1,6 @@
 ---
 title: Jekyll
 description: Static Site Generator
-navigation: false
 lastModified: '2025-03-17'
 ---
 

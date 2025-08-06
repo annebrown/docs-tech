@@ -1,7 +1,6 @@
 ---
 title: Typography
 description: Typography plugin
-navigation: false
 lastModified: '2025-01-11'
 ---
 

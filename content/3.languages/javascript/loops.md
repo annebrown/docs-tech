@@ -1,7 +1,6 @@
 ---
 title: Loops
-description: JavaScript Loop Statements
-lastModified: '2025-01-08'
+description: JavaScript Loop StatementslastModified: '2025-01-08'
 ---
 
 ## for

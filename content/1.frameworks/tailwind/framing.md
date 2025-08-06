@@ -1,7 +1,6 @@
 ---
 title: Framing
 description: Borders, Outlines and Rings
-navigation: false
 lastModified: '2025-02-14'
 ---
 

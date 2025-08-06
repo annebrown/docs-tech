@@ -1,7 +1,6 @@
 ---
 title: Fetched Data Momentarily Rendered
-description: Nuxt Table Data Renders then Vanishes
-lastModified: '2025-03-19'
+description: Nuxt Table Data Renders then VanisheslastModified: '2025-03-19'
 ---
 
 ## Description

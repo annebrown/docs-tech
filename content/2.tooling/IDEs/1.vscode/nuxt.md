@@ -1,7 +1,6 @@
 ---
 title: Nuxt Config
 description: Nuxt VSCode Config
-navigation: false
 lastModified: '2025-01-07'
 ---
 

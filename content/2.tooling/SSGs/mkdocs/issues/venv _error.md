@@ -1,7 +1,6 @@
 ---
 title: venv Error
-description: Plugins Install venv Error
-lastModified: '2025-01-08'
+description: Plugins Install venv ErrorlastModified: '2025-01-08'
 ---
 
 ## Status

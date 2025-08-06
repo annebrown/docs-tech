@@ -1,7 +1,6 @@
 ---
 title: Comparisons
-description: Comparisons to Other Frameworks
-lastModified: '2025-01-08'
+description: Comparisons to Other FrameworkslastModified: '2025-01-08'
 ---
 
 ## Description

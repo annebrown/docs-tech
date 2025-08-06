@@ -1,7 +1,6 @@
 ---
 title: WSL2
 description: Windows Subsystem for Linux, Version 2
-navigation: false
 lastModified: '2025-01-08'
 ---
 

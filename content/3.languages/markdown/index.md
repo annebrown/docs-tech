@@ -1,7 +1,6 @@
 ---
 title: Markdown
 description: Plain Text Markup Language
-navigation: false
 lastModified: '2025-01-08'
 ---
 

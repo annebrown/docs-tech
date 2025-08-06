@@ -1,7 +1,6 @@
 ---
 title: Ruby
 description: Programming Language
-navigation: false
 lastModified: '2025-03-17'
 ---
 

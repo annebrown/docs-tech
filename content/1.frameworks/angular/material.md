@@ -1,7 +1,6 @@
 ---
 title: Material 
-description: Material Styling for Angular Apps
-lastModified: '2025-01-07'
+description: Material Styling for Angular AppslastModified: '2025-01-07'
 ---
 
 ## Add Angular Material Pkg

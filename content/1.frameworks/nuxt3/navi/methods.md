@@ -1,7 +1,6 @@
 ---
 title: Nuxt Navi
-description: Methods of Obtaining Navi Links
-lastModified: '2025-01-08'
+description: Methods of Obtaining Navi LinkslastModified: '2025-01-08'
 ---
 
 ## Immediate Children of Specific Path

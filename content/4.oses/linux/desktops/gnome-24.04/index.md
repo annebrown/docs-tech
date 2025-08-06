@@ -1,7 +1,6 @@
 ---
 title: Gnome Desktop
 description: Gnome Desktop Config
-navigation: false
 lastModified: '2025-01-08'
 ---
 

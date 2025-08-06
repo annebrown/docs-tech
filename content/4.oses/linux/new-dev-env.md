@@ -1,7 +1,6 @@
 ---
 title: New Dev Env
-description: Configure New Dev Env
-lastModified: '2025-01-08'
+description: Configure New Dev EnvlastModified: '2025-01-08'
 ---
 
 ## Purpose

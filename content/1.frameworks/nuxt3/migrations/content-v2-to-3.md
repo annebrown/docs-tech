@@ -1,7 +1,6 @@
 ---
 title: Content V2 to V3
-description: Nuxt/content Module Migration
-lastModified: '2025-01-08'
+description: Nuxt/content Module MigrationlastModified: '2025-01-08'
 ---
 
 ## Update Module

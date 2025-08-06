@@ -1,7 +1,6 @@
 ---
 title: Vim
 description: Efficient Editor
-navigation: false
 lastModified: '2025-01-08'
 ---
 

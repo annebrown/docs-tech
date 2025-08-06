@@ -1,7 +1,6 @@
 ---
 title: Error
-description: Dude!
-lastModified: '2025-03-22'
+description: Dude!lastModified: '2025-03-22'
 ---
 
 `@/error.vue`:

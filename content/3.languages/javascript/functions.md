@@ -1,7 +1,6 @@
 ---
 title: Functions
-description: JavaScript Functions
-lastModified: '2025-01-08'
+description: JavaScript FunctionslastModified: '2025-01-08'
 ---
 
 - Functions are objects with attribs and logic

@@ -1,7 +1,6 @@
 ---
 title: Setup
 description: Git Setup
-navigation: false
 lastModified: '2025-01-08'
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Cheatsheet
-description: Cmds and notes
-lastModified: '2025-01-08'
+description: Cmds and noteslastModified: '2025-01-08'
 ---
 
 ```txt

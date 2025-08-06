@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting
-description: Troubleshooting Nuxt
-lastModified: '2025-01-08'
+description: Troubleshooting NuxtlastModified: '2025-01-08'
 ---
 
 ## Refresh

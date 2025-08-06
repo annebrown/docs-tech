@@ -1,7 +1,6 @@
 ---
 title: Setup
 description: DCAP Setup
-navigation: false
 lastModified: '2025-03-17'
 ---
 

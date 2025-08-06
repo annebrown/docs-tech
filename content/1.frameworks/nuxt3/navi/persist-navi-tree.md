@@ -1,7 +1,6 @@
 ---
 title: Persist Navi Tree
-description: Maintain Navi Tree State
-lastModified: '2025-03-22'
+description: Maintain Navi Tree StatelastModified: '2025-03-22'
 ---
 
 ## Problem

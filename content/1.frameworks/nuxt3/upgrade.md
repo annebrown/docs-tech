@@ -1,7 +1,6 @@
 ---
 title: Upgrade
-description: Upgrade Nuxt to Latest
-lastModified: '2025-03-20'
+description: Upgrade Nuxt to LatestlastModified: '2025-03-20'
 ---
 
 ```bash

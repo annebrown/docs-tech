@@ -1,7 +1,6 @@
 ---
 title: Config
-description: Nuxt CSS Config
-lastModified: '2025-04-05'
+description: Nuxt CSS ConfiglastModified: '2025-04-05'
 ---
 
 ## Description

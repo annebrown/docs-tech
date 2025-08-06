@@ -1,7 +1,6 @@
 ---
 title: Build
-description: Vite's Build Process
-lastModified: '2025-01-08'
+description: Vite's Build ProcesslastModified: '2025-01-08'
 ---
 
 ## Description

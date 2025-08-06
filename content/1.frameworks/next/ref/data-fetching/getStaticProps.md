@@ -1,7 +1,6 @@
 ---
 title: getStaticProps
-description: SSG Fetch
-lastModified: '2025-01-08'
+description: SSG FetchlastModified: '2025-01-08'
 ---
 
 - SSG

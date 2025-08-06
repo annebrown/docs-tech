@@ -1,7 +1,6 @@
 ---
 title: Navi
-description: MkDocs Navi
-lastModified: '2025-01-08'
+description: MkDocs NavilastModified: '2025-01-08'
 ---
 
 ## `nav` Config Setting

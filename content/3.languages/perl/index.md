@@ -1,7 +1,6 @@
 ---
 title: perl
 description: Fav Programming Lang
-navigation: false
 lastModified: '2025-01-08'
 ---
 

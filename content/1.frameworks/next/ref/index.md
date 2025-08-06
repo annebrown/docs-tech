@@ -1,7 +1,6 @@
 ---
 title: Next.js Ref
 description: Next.js Ref Notes
-navigation: false
 lastModified: '2025-01-08'
 ---
 

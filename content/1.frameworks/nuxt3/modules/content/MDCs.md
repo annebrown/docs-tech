@@ -1,7 +1,6 @@
 ---
 title: MDCs
 description: MD Extension for Embedded Vue Components
-navigation: false
 lastModified: '2025-04-08'
 ---
 

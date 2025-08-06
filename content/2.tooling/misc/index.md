@@ -1,7 +1,6 @@
 ---
 title: Misc
 description: 'Misc Utilities'
-navigation: false
 lastModified: '2025-03-28'
 ---
 

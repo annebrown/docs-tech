@@ -1,7 +1,6 @@
 ---
 title: Values
-description: JavaScript Values
-lastModified: '2025-01-08'
+description: JavaScript ValueslastModified: '2025-01-08'
 ---
 
 ## Values

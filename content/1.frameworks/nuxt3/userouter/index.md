@@ -1,8 +1,7 @@
 ---
 title: useRouter()
-description: useRouter() Composable
-lastModified: '2025-01-28'
-navigation: false
+description: useRouter() ComposablelastModified: '2025-01-28'
+
 ---
 
 ## Description

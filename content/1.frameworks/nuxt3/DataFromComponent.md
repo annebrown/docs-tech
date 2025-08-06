@@ -1,7 +1,6 @@
 ---
 title: Data From
-description: Data From Component
-lastModified: '2025-02-23'
+description: Data From ComponentlastModified: '2025-02-23'
 ---
 
 ## List Object Items from Custom Component

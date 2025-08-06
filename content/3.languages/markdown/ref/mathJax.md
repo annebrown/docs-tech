@@ -1,7 +1,6 @@
 ---
 title: MathJax
-description: MathJax Colors
-lastModified: '2025-01-08'
+description: MathJax ColorslastModified: '2025-01-08'
 ---
 
 ##Text Color

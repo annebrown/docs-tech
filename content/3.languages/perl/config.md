@@ -1,7 +1,6 @@
 ---
 title: Setup
-description: Perl Dev Setup
-lastModified: '2025-01-08'
+description: Perl Dev SetuplastModified: '2025-01-08'
 ---
 
 ## Install

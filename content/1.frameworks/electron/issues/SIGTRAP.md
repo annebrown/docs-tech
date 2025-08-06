@@ -1,7 +1,6 @@
 ---
 title: SIGTRAP
-description: Common Electron Linux Error
-lastModified: '2025-01-08'
+description: Common Electron Linux ErrorlastModified: '2025-01-08'
 ---
 
 ## Error

@@ -1,7 +1,6 @@
 ---
 title: New Host Config
-description: Install Linux Dev Env on Android
-lastModified: '2025-01-08'
+description: Install Linux Dev Env on AndroidlastModified: '2025-01-08'
 ---
 
 ## Install userland

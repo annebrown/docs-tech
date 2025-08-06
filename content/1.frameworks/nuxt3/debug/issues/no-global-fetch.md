@@ -1,7 +1,6 @@
 ---
 title: No Global Fetch
-description: global.fetch not supported
-lastModified: 2025-01-26
+description: global.fetch not supportedlastModified: 2025-01-26
 ---
 
 ## Description

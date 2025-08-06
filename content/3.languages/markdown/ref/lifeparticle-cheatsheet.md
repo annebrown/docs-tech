@@ -1,7 +1,6 @@
 ---
 title: LifeParticle Cheatsheet
-description: Ultimate Markdown Cheatsheet
-lastModified: '2025-01-08'
+description: Ultimate Markdown CheatsheetlastModified: '2025-01-08'
 ---
 
 Source: `README.md`, from <https://github.com/lifeparticle/Markdown-Cheatsheet.git>

@@ -1,7 +1,6 @@
 ---
 title: Output Options
-description: JavaScript Output Options
-lastModified: '2025-01-08'
+description: JavaScript Output OptionslastModified: '2025-01-08'
 ---
 
 ## Update innerHTML

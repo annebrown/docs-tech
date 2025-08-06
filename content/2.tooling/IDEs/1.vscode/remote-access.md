@@ -1,7 +1,6 @@
 ---
 title: Remote Access
-description: Code Server
-lastModified: '2025-01-07'
+description: Code ServerlastModified: '2025-01-07'
 ---
 
 ## Description

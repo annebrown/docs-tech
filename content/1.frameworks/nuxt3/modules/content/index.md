@@ -1,7 +1,6 @@
 ---
 title: Content
 description: Nuxt Content Module
-navigation: false
 lastModified: '2025-01-08'
 ---
 

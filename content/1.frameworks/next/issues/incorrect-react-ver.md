@@ -1,7 +1,6 @@
 ---
 title: Incorrect React Version
-description: Next.js dev server returns error
-lastModified: '2025-01-08'
+description: Next.js dev server returns errorlastModified: '2025-01-08'
 ---
 
 Next.js install script, `create-next-app`, returns error when attempting to run dev svr:

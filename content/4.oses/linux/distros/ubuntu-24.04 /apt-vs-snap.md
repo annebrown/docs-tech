@@ -1,7 +1,6 @@
 ---
 title: apt -vs- snap
-description: Notes and comparison
-lastModified: '2025-01-08'
+description: Notes and comparisonlastModified: '2025-01-08'
 ---
 
 ## Descriptoin

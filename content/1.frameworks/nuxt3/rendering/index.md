@@ -1,7 +1,6 @@
 ---
 title: Rendering
 description: Component Rendering
-navigation: false
 lastModified: '2025-02-21'
 ---
 

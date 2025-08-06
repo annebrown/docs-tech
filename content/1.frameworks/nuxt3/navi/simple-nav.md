@@ -1,7 +1,6 @@
 ---
 title: Simple Nav
-description: Simple Nav Passed Btw Components
-lastModified: '2025-03-22'
+description: Simple Nav Passed Btw ComponentslastModified: '2025-03-22'
 ---
 
 ```js

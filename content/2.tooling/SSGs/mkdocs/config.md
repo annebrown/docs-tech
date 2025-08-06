@@ -1,7 +1,6 @@
 ---
 title: Config
-description: MkDocs Config
-lastModified: '2025-01-08'
+description: MkDocs ConfiglastModified: '2025-01-08'
 ---
 
 ## The `mkdocs.yml` File

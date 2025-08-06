@@ -1,7 +1,6 @@
 ---
 title: Debug
 description: Debugging Nuxt Apps
-navigation: false
 lastModified: '2025-03-14'
 ---
 

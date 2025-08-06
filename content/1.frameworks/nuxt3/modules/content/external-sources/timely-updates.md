@@ -1,7 +1,6 @@
 ---
 title: Timely Updates
-description: Propagating Timely Updates
-lastModified: '2025-01-11'
+description: Propagating Timely UpdateslastModified: '2025-01-11'
 ---
 
 ## Description

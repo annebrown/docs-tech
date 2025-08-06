@@ -1,7 +1,6 @@
 ---
 title: Colors - OKLCH
-description: Tailwind OKLCH Color Codes
-lastModified: '2025-03-11'
+description: Tailwind OKLCH Color CodeslastModified: '2025-03-11'
 ---
 
 ## Purpose

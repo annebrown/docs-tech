@@ -1,7 +1,6 @@
 ---
 title: xrandr
-description: XWin Screen Utility
-lastModified: '2025-01-07'
+description: XWin Screen UtilitylastModified: '2025-01-07'
 ---
 
 ## Description

@@ -1,7 +1,6 @@
 ---
 title: Env Vars
-description: Nuxt Environment Variables
-lastModified: '2025-03-17'
+description: Nuxt Environment VariableslastModified: '2025-03-17'
 ---
 
 ## Config File

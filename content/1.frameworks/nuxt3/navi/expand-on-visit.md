@@ -1,7 +1,6 @@
 ---
 title: Expand On Visit
-description: Expand Navi to Entry for Current Route
-lastModified: '2025-03-22'
+description: Expand Navi to Entry for Current RoutelastModified: '2025-03-22'
 ---
 
 Collapsible navi tree to auto-expand to show current page's locan, on each new page render

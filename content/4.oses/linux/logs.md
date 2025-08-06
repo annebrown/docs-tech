@@ -1,7 +1,6 @@
 ---
 title: Logs
-description: Linux Log Files and Mgmt
-lastModified: '2025-01-08'
+description: Linux Log Files and MgmtlastModified: '2025-01-08'
 ---
 
 ## Path

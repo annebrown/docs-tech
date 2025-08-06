@@ -1,7 +1,6 @@
 ---
 title: Bloat
-description: Tailwind Bloat
-lastModified: '2025-01-08'
+description: Tailwind BloatlastModified: '2025-01-08'
 ---
 
 ## Description

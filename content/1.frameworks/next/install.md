@@ -1,7 +1,6 @@
 ---
 title: Setup
-description: Next.js App Setup
-lastModified: '2025-01-08'
+description: Next.js App SetuplastModified: '2025-01-08'
 ---
 
 ## Create Next.js App

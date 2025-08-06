@@ -1,7 +1,6 @@
 ---
 title: Passing Objects
-description: Passing Objects in Nuxt
-lastModified: '2025-01-08'
+description: Passing Objects in NuxtlastModified: '2025-01-08'
 ---
 
 ## Managing Shared State

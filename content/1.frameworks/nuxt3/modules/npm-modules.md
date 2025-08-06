@@ -1,7 +1,6 @@
 ---
 title: NPM Modules
-description: Nuxt Custom Libs
-lastModified: '2025-01-08'
+description: Nuxt Custom LibslastModified: '2025-01-08'
 ---
 
 ## Description

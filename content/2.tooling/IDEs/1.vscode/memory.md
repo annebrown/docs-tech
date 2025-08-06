@@ -1,7 +1,6 @@
 ---
 title: Memory
-description: VSCode Memory
-lastModified: '2025-01-07'
+description: VSCode MemorylastModified: '2025-01-07'
 ---
 
 ## Description

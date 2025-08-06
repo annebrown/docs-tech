@@ -1,7 +1,6 @@
 ---
 title: Layers
 description: Shared Code
-navigation: false
 lastModified: '2025-01-15'
 ---
 

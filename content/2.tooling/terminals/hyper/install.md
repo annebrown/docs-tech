@@ -1,7 +1,6 @@
 ---
 title: Install Hyper
-description: Install Hyper Terminal
-lastModified: '2025-01-08'
+description: Install Hyper TerminallastModified: '2025-01-08'
 ---
 
 ## Required Libraries

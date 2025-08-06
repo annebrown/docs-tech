@@ -1,7 +1,6 @@
 ---
 title: Debug
-description: Nuxt Debug Mode
-lastModified: '2025-01-08'
+description: Nuxt Debug ModelastModified: '2025-01-08'
 ---
 
 ## Nuxt Config

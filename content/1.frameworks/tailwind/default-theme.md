@@ -1,7 +1,6 @@
 ---
 title: Default Vars
-description: TW Default Theme Vars
-lastModified: '2025-02-09'
+description: TW Default Theme VarslastModified: '2025-02-09'
 ---
 
 ```css

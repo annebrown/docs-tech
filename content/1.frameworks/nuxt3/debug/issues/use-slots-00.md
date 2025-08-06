@@ -1,7 +1,6 @@
 ---
 title: Use Slots Error
-description:  Use Slots with ContentQuery
-lastModified: '2025-01-08'
+description:  Use Slots with ContentQuerylastModified: '2025-01-08'
 ---
 
 ```json

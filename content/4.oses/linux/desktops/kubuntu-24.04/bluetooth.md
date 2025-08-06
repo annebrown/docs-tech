@@ -1,7 +1,6 @@
 ---
 title: Kubuntu 24.04 Bluetooth
 description: Bluetooth Service and Issues
-navigation: false
 lastModified: '2025-01-08'
 ---
 

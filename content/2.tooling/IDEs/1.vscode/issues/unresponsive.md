@@ -1,7 +1,6 @@
 ---
 title: Unresponsive
-description: OS Unresponsive to Input
-lastModified: '2025-01-07'
+description: OS Unresponsive to InputlastModified: '2025-01-07'
 ---
 
 ## Description

@@ -1,7 +1,6 @@
 ---
 title: Page Meta
-description: Display Page Meta
-lastModified: '2025-03-22'
+description: Display Page MetalastModified: '2025-03-22'
 ---
 
 Discover available markdown page meta using something like:

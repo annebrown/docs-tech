@@ -1,7 +1,6 @@
 ---
 title: journalctl Command
-description: Linux Log Viewer
-lastModified: '2025-01-08'
+description: Linux Log ViewerlastModified: '2025-01-08'
 ---
 
 ## Purpose

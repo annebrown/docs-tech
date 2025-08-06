@@ -1,7 +1,6 @@
 ---
 title: Strings
-description: JavaScript String Data Type
-lastModified: '2025-01-08'
+description: JavaScript String Data TypelastModified: '2025-01-08'
 ---
 
 ## Usage

@@ -1,7 +1,6 @@
 ---
 title: Angular
 description: Full-Stack JavaScript Framework
-navigation: false
 lastModified: '2025-03-28'
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Electron
 description: Electron Framework
-navigation: false
 lastModified: '2025-01-08'
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Cheatsheet
 description: Tailwind CSS Cheatsheet
-navigation: false
 lastModified: '2025-01-11'
 ---
 

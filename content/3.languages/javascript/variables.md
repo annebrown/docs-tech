@@ -1,7 +1,6 @@
 ---
 title: Variables
-description: JavaScript Variables
-lastModified: '2025-01-08'
+description: JavaScript VariableslastModified: '2025-01-08'
 ---
 
 - Name of storage locn where data is stored

@@ -1,7 +1,6 @@
 ---
 title: nuxt-auth-utils
-description: Nuxt Authn Utility
-lastModified: '2025-02-23'
+description: Nuxt Authn UtilitylastModified: '2025-02-23'
 ---
 
 ## Description

@@ -1,7 +1,6 @@
 ---
 title: RasPi Incorrect Screen Res
-description: RasPi External Monitor Res Support
-lastModified: '2025-01-08'
+description: RasPi External Monitor Res SupportlastModified: '2025-01-08'
 ---
 
 ## Description

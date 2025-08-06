@@ -1,7 +1,6 @@
 ---
 title: Dynamic Markdown
-description: Dynamic Frontmatter
-lastModified: '2025-01-08'
+description: Dynamic FrontmatterlastModified: '2025-01-08'
 ---
 
 ## Description

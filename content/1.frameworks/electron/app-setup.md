@@ -1,7 +1,6 @@
 ---
 title: Setup
-description: Electron App Creation
-lastModified: '2025-01-30'
+description: Electron App CreationlastModified: '2025-01-30'
 ---
 
 ## Set Up Project
