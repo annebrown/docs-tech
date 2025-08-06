@@ -1,6 +1,7 @@
 ---
 title: Console
-description: Server loglastModified: '2025-01-08'
+description: Server log
+lastModified: '2025-01-08'
 ---
 
 ## Methods

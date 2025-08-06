@@ -1,6 +1,7 @@
 ---
 title: Hyper
-description: Hyper Terminal for LinuxlastModified: '2025-01-08'
+description: Hyper Terminal for Linux
+lastModified: '2025-01-08'
 ---
 
 ## Config File

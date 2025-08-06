@@ -1,6 +1,7 @@
 ---
 title: Settings Sync
-description: Sync VSCODE ConfiglastModified: '2025-01-07'
+description: Sync VSCODE Config
+lastModified: '2025-01-07'
 ---
 
 Synced settings:

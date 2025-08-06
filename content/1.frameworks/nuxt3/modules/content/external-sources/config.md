@@ -1,6 +1,7 @@
 ---
 title: Config
-description: External Source ConfiglastModified: '2025-01-11'
+description: External Source Config
+lastModified: '2025-01-11'
 ---
 
 ## GitHub

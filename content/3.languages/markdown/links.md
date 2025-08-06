@@ -1,6 +1,7 @@
 ---
 title: Links
-description: MD Link TypeslastModified: '2025-01-08'
+description: MD Link Types
+lastModified: '2025-01-08'
 ---
 
 ## HTML Links

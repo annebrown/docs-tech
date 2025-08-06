@@ -1,6 +1,7 @@
 ---
 title: Page Meta
-description: Display Page MetalastModified: '2025-03-22'
+description: Display Page Meta
+lastModified: '2025-03-22'
 ---
 
 Discover available markdown page meta using something like:
@@ -40,7 +41,8 @@ Sample markdown page data:
     "title": "Public",
     "description": "Technology Development Docs",
     "navigation": false,
-    "lastModified": "2025-01-07",
+    "
+lastModified": "2025-01-07",
     "body": {
         "type": "root",
         "children": [

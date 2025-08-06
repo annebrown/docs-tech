@@ -1,6 +1,7 @@
 ---
 title: Use Slots Error
-description: Use slots with <ContentRenderer>lastModified: '2025-03-22'
+description: Use slots with <ContentRenderer>
+lastModified: '2025-03-22'
 ---
 
 ## Error Description

@@ -1,6 +1,7 @@
 ---
 title: Failed to Stringify
-description: Failed to Stringify Server LogslastModified: '2025-03-22'
+description: Failed to Stringify Server Logs
+lastModified: '2025-03-22'
 ---
 
 ## Error

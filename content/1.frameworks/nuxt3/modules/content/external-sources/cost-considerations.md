@@ -1,6 +1,7 @@
 ---
 title: Cost Considerations
-description: Pricing and PerformancelastModified: '2025-01-10'
+description: Pricing and Performance
+lastModified: '2025-01-10'
 ---
 
 ## Added Costs

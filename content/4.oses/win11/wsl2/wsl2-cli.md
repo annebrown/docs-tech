@@ -1,6 +1,7 @@
 ---
 title: WSL2 CLI
-description: Linux Shell Program and Command LanglastModified: '2025-01-08'
+description: Linux Shell Program and Command Lang
+lastModified: '2025-01-08'
 ---
 
 Run from windows CLI (.exe extension not rqd).

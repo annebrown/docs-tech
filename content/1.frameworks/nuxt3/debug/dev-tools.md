@@ -1,6 +1,7 @@
 ---
 title: DevTools
-description: Nuxt Development ToolslastModified: '2025-01-08'
+description: Nuxt Development Tools
+lastModified: '2025-01-08'
 ---
 
 ## Enable DevTools

@@ -1,6 +1,7 @@
 ---
 title: Arrays
-description: JavaScript Array Data StructurelastModified: '2025-01-08'
+description: JavaScript Array Data Structure
+lastModified: '2025-01-08'
 ---
 
 - allows varying data types

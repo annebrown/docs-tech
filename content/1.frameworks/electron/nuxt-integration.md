@@ -1,6 +1,7 @@
 ---
 title: Nuxt Integration
-description: Electron Nuxt IntegrationlastModified: '2025-01-08'
+description: Electron Nuxt Integration
+lastModified: '2025-01-08'
 ---
 
 ## Description

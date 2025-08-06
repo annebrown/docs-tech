@@ -1,6 +1,7 @@
 ---
 title: Setup
-description: TailwindCSS SetuplastModified: '2025-01-08'
+description: TailwindCSS Setup
+lastModified: '2025-01-08'
 ---
 
 ## Tailwind CLI

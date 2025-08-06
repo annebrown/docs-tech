@@ -1,6 +1,7 @@
 ---
 title: Hyper Plugins
-description: Hyper Plugin NoteslastModified: '2025-01-08'
+description: Hyper Plugin Notes
+lastModified: '2025-01-08'
 ---
 
 ## Installed Plugins

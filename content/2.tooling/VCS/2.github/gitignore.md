@@ -1,6 +1,7 @@
 ---
 title: .gitignore
-description: .gitignore ItemslastModified: '2025-03-31'
+description: .gitignore Items
+lastModified: '2025-03-31'
 ---
 
 ## Common

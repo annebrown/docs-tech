@@ -1,6 +1,7 @@
 ---
 title: VS Code Extensions
-description: Code Extns for Electron App DevlastModified: '2025-01-08'
+description: Code Extns for Electron App Dev
+lastModified: '2025-01-08'
 ---
 
 ## Description

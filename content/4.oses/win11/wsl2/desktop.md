@@ -1,6 +1,7 @@
 ---
 title: Linux Desktop
-description: Setup Linux desktop on Win11lastModified: '2025-01-08'
+description: Setup Linux desktop on Win11
+lastModified: '2025-01-08'
 ---
 
 ## Install Distro

@@ -1,6 +1,7 @@
 ---
 title: Colors - Hex
-description: Tailwind Hex Color CodeslastModified: '2025-04-15'
+description: Tailwind Hex Color Codes
+lastModified: '2025-04-15'
 ---
 
 ## Purpose

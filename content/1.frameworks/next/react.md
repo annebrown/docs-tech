@@ -1,6 +1,7 @@
 ---
 title: React
-description: Implementing React in Next.jslastModified: '2025-01-08'
+description: Implementing React in Next.js
+lastModified: '2025-01-08'
 ---
 
 ## Import

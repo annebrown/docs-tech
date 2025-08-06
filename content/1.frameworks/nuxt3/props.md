@@ -1,7 +1,8 @@
 ---
 title: Props
 description: Nuxt Props
-order: 10lastModified: '2025-01-08'
+order: 10
+lastModified: '2025-01-08'
 ---
 
 ## Props & Properties

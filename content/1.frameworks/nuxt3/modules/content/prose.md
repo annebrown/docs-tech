@@ -1,6 +1,7 @@
 ---
 title: Prose
-description: Prose ComponentslastModified: '2025-01-18'
+description: Prose Components
+lastModified: '2025-01-18'
 ---
 
 ## Links

@@ -1,6 +1,7 @@
 ---
 title: Images
-description: MkDocs Image HandlinglastModified: '2025-01-08'
+description: MkDocs Image Handling
+lastModified: '2025-01-08'
 ---
 
 ## Install Deps

@@ -1,6 +1,7 @@
 ---
 title: Config
-description: Nuxt ConfigurationlastModified: '2025-04-05'
+description: Nuxt Configuration
+lastModified: '2025-04-05'
 ---
 
 ## package.json

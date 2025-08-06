@@ -1,6 +1,7 @@
 ---
 title: PAT
-description:  Personal Access TokenlastModified: '2025-03-18'
+description:  Personal Access Token
+lastModified: '2025-03-18'
 ---
 
 ## Troubleshooting

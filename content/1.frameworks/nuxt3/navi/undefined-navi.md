@@ -1,6 +1,7 @@
 ---
 title: Undefined Navi Data
-description: Navi Data Unavail when Component RenderslastModified: '2025-03-22'
+description: Navi Data Unavail when Component Renders
+lastModified: '2025-03-22'
 ---
 
 ## Navi Component Logic

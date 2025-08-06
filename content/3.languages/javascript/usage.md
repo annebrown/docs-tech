@@ -1,6 +1,7 @@
 ---
 title: Usage
-description: JavaScript UsagelastModified: '2025-01-08'
+description: JavaScript Usage
+lastModified: '2025-01-08'
 ---
 
 ## Usage

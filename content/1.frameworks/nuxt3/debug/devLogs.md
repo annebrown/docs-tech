@@ -1,6 +1,7 @@
 ---
 title: devLogs
-description: Stream Server Logs to ClientlastModified: '2025-03-14'
+description: Stream Server Logs to Client
+lastModified: '2025-03-14'
 ---
 
 ## Enable `devLogs`

@@ -1,6 +1,7 @@
 ---
 title: Cheatsheet
-description: Next.js commands and noteslastModified: '2025-01-08'
+description: Next.js commands and notes
+lastModified: '2025-01-08'
 ---
 
 ## Commands

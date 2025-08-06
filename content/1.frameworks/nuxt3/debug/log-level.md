@@ -1,6 +1,7 @@
 ---
 title: LogLevel
-description: Configure Nuxt LogginglastModified: '2025-03-14'
+description: Configure Nuxt Logging
+lastModified: '2025-03-14'
 ---
 
 ## Dev Server Command

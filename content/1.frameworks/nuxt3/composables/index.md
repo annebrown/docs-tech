@@ -1,6 +1,7 @@
 ---
 title: Composables
-description: Nuxt ComposableslastModified: '2025-01-28'
+description: Nuxt Composables
+lastModified: '2025-01-28'
 
 ---
 

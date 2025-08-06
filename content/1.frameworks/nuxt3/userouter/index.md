@@ -1,6 +1,7 @@
 ---
 title: useRouter()
-description: useRouter() ComposablelastModified: '2025-01-28'
+description: useRouter() Composable
+lastModified: '2025-01-28'
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Layout
-description: Next.js LayoutlastModified: '2025-01-08'
+description: Next.js Layout
+lastModified: '2025-01-08'
 ---
 
 ## `/app/layout.tsx`

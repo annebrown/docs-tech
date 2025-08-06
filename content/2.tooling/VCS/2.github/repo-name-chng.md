@@ -1,6 +1,7 @@
 ---
 title: Repo Name Change
-description: How to Change Repo NamelastModified: '2025-03-31'
+description: How to Change Repo Name
+lastModified: '2025-03-31'
 ---
 
 ## GitHub Repo

@@ -1,6 +1,7 @@
 ---
 title: Webhooks
-description:  GitHub WebhookslastModified: '2025-03-31'
+description:  GitHub Webhooks
+lastModified: '2025-03-31'
 ---
 
 ## Purpose

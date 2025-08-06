@@ -1,6 +1,7 @@
 ---
 title: Operators
-description: JavaScript OperatorslastModified: '2025-01-08'
+description: JavaScript Operators
+lastModified: '2025-01-08'
 ---
 
 ## Assignment Operators

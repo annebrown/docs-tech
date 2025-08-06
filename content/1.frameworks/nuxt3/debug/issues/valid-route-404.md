@@ -1,6 +1,7 @@
 ---
 title: Valid Route 404
-description: 404 for Valid '@/pages/' RouteslastModified: '2025-03-20'
+description: 404 for Valid '@/pages/' Routes
+lastModified: '2025-03-20'
 ---
 
 ## Description

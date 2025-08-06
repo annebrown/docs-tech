@@ -1,6 +1,7 @@
 ---
 title: Fonts
-description: Nuxt Fonts ConfiglastModified: '2025-04-06'
+description: Nuxt Fonts Config
+: '2025-04-06'
 ---
 
 ## Description

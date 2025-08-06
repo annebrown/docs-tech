@@ -1,6 +1,7 @@
 ---
 title: Considerations
-description: Stand-Alone App DevlastModified: '2025-01-08'
+description: Stand-Alone App Dev
+lastModified: '2025-01-08'
 ---
 
 Things to consider when developing stand-alone apps.

@@ -1,6 +1,7 @@
 ---
 title: Dynamic Markdown
-description: Dynamic FrontmatterlastModified: '2025-01-08'
+description: Dynamic Frontmatter
+lastModified: '2025-01-08'
 ---
 
 ## Description
@@ -13,7 +14,8 @@ Streamline content editing, while reducing potential for human error.
 
 ## Approach
 
-These steps add a dynamic `lastModified` markdown frontmatter field.
+These steps add a dynamic `
+lastModified` markdown frontmatter field.
 
 ### Install VS Code Extensions
 
@@ -37,14 +39,17 @@ fs.readFile(filePath, 'utf8', (err, data) => {
     return;
   }
 
-  const updatedData = data.replace(/lastModified: '.*'/, `lastModified: '${currentDate}'`);
+  const updatedData = data.replace(/
+lastModified: '.*'/, `
+lastModified: '${currentDate}'`);
 
   fs.writeFile(filePath, updatedData, 'utf8', (err) => {
     if (err) {
       console.error(err);
       return;
     }
-    console.log(`Updated lastModified date to ${currentDate} in ${filePath}`);
+    console.log(`Updated 
+lastModified date to ${currentDate} in ${filePath}`);
   });
 });
 //<--------@/update-frontmatter.ts--------------------------------------------->

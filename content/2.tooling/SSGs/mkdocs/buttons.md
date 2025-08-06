@@ -1,6 +1,7 @@
 ---
 title: Buttons
-description: MkDocs ButtonslastModified: '2025-01-08'
+description: MkDocs Buttons
+lastModified: '2025-01-08'
 ---
 
 ```md title="This:"

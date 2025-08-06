@@ -1,6 +1,7 @@
 ---
 title: SSH
-description: Secure ShelllastModified: '2025-01-08'
+description: Secure Shell
+lastModified: '2025-01-08'
 ---
 
 ## Install

@@ -1,6 +1,7 @@
 ---
 title: Usage
-description: Using Styles in NuxtlastModified: '2025-04-05'
+description: Using Styles in Nuxt
+lastModified: '2025-04-05'
 ---
 
 ## Description

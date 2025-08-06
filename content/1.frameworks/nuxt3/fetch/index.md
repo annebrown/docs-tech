@@ -1,6 +1,7 @@
 ---
 title: Fetch
-description: Nuxt FetchlastModified: '2025-01-26'
+description: Nuxt Fetch
+lastModified: '2025-01-26'
 ---
 
 ## ofetch

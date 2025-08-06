@@ -1,6 +1,7 @@
 ---
 title: useRoute Middleware Misleading
-description: Dev Console WarninglastModified: '2025-03-20'
+description: Dev Console Warning
+lastModified: '2025-03-20'
 ---
 
 ## Description

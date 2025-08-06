@@ -1,6 +1,7 @@
 ---
 title: awesome-pages
-description: awesome-pages not deployed on NetlifylastModified: '2025-01-08'
+description: awesome-pages not deployed on Netlify
+lastModified: '2025-01-08'
 ---
 
 ## Problem

@@ -1,6 +1,7 @@
 ---
 title: Styling
-description: Styling MkDocslastModified: '2025-01-08'
+description: Styling MkDocs
+lastModified: '2025-01-08'
 ---
 
 ## Markdown Extra

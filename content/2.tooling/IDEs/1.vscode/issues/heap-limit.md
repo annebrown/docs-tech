@@ -1,6 +1,7 @@
 ---
 title: Heap Limit
-description: Reached heap limitlastModified: '2025-01-07'
+description: Reached heap limit
+lastModified: '2025-01-07'
 ---
 
 ## Description

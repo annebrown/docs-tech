@@ -1,6 +1,7 @@
 ---
 title: HTML
-description: HyperText Markup LanguagelastModified: '2025-01-08'
+description: HyperText Markup Language
+lastModified: '2025-01-08'
 ---
 
 ## Description
