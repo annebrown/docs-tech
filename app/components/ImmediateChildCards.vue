@@ -8,7 +8,6 @@
     const route = useRoute()
     const path = route.path
     const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
-    // const originalNavigation = inject('navigation')
     const newNavigation = useNaviTree(navigation)
 
     const immediateChildren = computed(() =>
@@ -35,7 +34,7 @@
                         description: 'pb-4'
                     }"
                 >
-                    <div v-for="page in navigation" :key="page.path">
+                    <div v-for="page in newNavigation" :key="page.path">
                         <UPageFeature
                             :to="page.path"
                             :title="page.title"
