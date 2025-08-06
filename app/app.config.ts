@@ -28,6 +28,7 @@ export default defineAppConfig({
         },
         contentToc: {
             slots: {
+                root: 'rounded-md backdrop-none lg:bg-default/75 mx-0 sm:mx-0 border-0',
                 container: '',
             }
         },
@@ -56,10 +57,9 @@ export default defineAppConfig({
                 container: 'm-0 p-0',
                 center: 'bg-(--ab-midships) rounded',
                 left: 'card-glass-narrow h-fit bg-(--ab-port-gunnel)',
-                right: 'card-glass-narrow w-fit h-fit bg-(--ab-port-gunnel)'
+                right: 'card-glass-narrow h-fit w-fit bg-(--ab-port-gunnel)'
             }
         },
-
         pageFeature: {
             slots: {
                 root: 'p-4 card-glass-link leading-5',
@@ -68,7 +68,7 @@ export default defineAppConfig({
         },
         pageHero: {
             slots: {
-                container: 'w-full py-2 sm:py-4 lg:py-8',
+                container: 'w-full py-2 md:py-4 lg:py-8',
             }
         },
         pageSection: {

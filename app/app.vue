@@ -31,7 +31,7 @@
   <UApp>
     <NuxtLoadingIndicator />
 
-    <AppHeader class="mx-2 md:mx-8" />
+    <AppHeader class="" />
 
     <UMain   class="mx-2 md:mx-8 rounded-md">
       <NuxtLayout>

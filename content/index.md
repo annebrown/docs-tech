@@ -27,7 +27,6 @@ Technology Development Notes
 #features
   :::u-page-feature
   ---
-  target: _blank
   to: /docs-tech/frameworks
   ---
   #title
@@ -39,7 +38,6 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  target: _blank
   to: /docs-tech/tooling
   ---
   #title
@@ -51,7 +49,6 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  target: _blank
   to: /docs-tech/languages
   ---
   #title
@@ -63,7 +60,6 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  target: _blank
   to: /docs-tech/oses
   ---
   #title
@@ -75,7 +71,6 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  target: _blank
   to: /docs-tech/protocols
   ---
   #title
@@ -87,7 +82,6 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  target: _blank
   to: /docs-tech/graphics/
   ---
   #title

@@ -10,7 +10,7 @@
     <UHeader
         :ui="{ center: 'flex-1' }"
         :to="header?.to || '/'"
-        side="left"
+
         toggle-side="right"
         mode="slideover"
     >
@@ -46,7 +46,6 @@
 
         <!-- Right Header -->
         <template #right>
-
             <UContentSearchButton
                 v-if="header?.search"
                 class="relative lg:hidden text-primary"
@@ -60,21 +59,8 @@
                 :key="index"
                 v-bind="{ color: 'neutral', variant: 'link', ...link }"
             />
-
-            <!-- <UDropdownMenu v-model:open="open" :items="items" :ui="{ content: 'w-48' }">
-                <UButton label="Open" color="neutral" variant="outline" icon="i-lucide-menu" />
-            </UDropdownMenu> -->
-            <!-- <UDropdownMenu
-                orientation="vertical"
-                :items="items"
-                to="/docs-tech"
-                variant="link"
-            >
-                <UButton icon="i-lucide-menu" color="neutral" variant="outline" />
-            </UDropdownMenu> -->
-
-
         </template>
+
         <template #body>
             <UContentNavigation
                 highlight

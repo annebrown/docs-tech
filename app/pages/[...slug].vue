@@ -72,25 +72,22 @@ const links = computed(() => {
         </UPageBody>
 
         <!-- Star Gunnel -->
-        <template v-if="page?.body?.toc?.links?.length" #right>
-            <div class="card-glass-narrow">
+        <template v-if="page?.body?.toc?.links?.length" #right class="card-glass-narrow">
+            <div class="">
                 <!-- Page TOC -->
                 <UContentToc
                     :title="toc?.title"
                     :links="page.body?.toc?.links"
                 >
                     <!-- Links Under TOC -->
-                    <template
-                    v-if="toc?.bottom"
-                    #bottom
-                    >
+                    <template v-if="toc?.bottom" #bottom >
                         <div
-                        class="hidden md:block space-y-6"
-                        :class="{ '!mt-6': page.body?.toc?.links?.length }"
+                            class="hidden md:block space-y-6"
+                            :class="{ '!mt-6': page.body?.toc?.links?.length }"
                         >
                             <USeparator
-                            v-if="page.body?.toc?.links?.length"
-                            type="solid"
+                                v-if="page.body?.toc?.links?.length"
+                                type="solid"
                             />
 
                             <UPageLinks v-if="toc"
