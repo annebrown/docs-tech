@@ -22,8 +22,8 @@ export default defineAppConfig({
         },
         contentSurround: {
             slots: {
-                root: 'mt-0',
-                link: 'pt-0'
+                root: 'my-0 py-0',
+                link: 'py-0'
             }
         },
         contentToc: {

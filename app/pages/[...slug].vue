@@ -65,7 +65,12 @@ const links = computed(() => {
 
             <ContentRenderer v-if="page" :value="page" class="py-0 my-0"/>
 
-            <USeparator v-if="surround?.length" />
+            <!-- Child Route Cards-->
+            <div class="w-full mx-auto mb-0 p-0 pt-8 px-2">
+                <ImmediateChildCards />
+            </div>
+
+            <!-- <USeparator v-if="surround?.length" /> -->
 
             <UContentSurround :surround="surround" />
 

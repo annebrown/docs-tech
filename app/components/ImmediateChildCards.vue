@@ -1,49 +1,49 @@
-<script setup lang="ts">
-
-    import { UPageFeature, UPageSection } from '#components'
-    import { findPageChildren } from '@nuxt/content/utils'
-    import { useRoute } from 'vue-router'
-    import type { ContentNavigationItem } from '@nuxt/content'
-
-    const route = useRoute()
-    const path = route.path
-    const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
-    const newNavigation = useNaviTree(navigation)
-
-    const immediateChildren = computed(() =>
-        findPageChildren(newNavigation, path )
-    )
-
-</script>
-
-<template><div>
-      <div
-        v-if="navigation"
-        class=""
+<template>
+  <div>
+    <div
+      v-if="immediateSubpages && immediateSubpages.length"
+      class="flex flex-row items-center justify-center gap-4 flex-wrap mx-auto"
     >
-
-        <!-- Debug -->
-        <p v-if=0>HAS navigation</p>
-
-        <!-- <USeparator type="solid" class="pb-4"/> -->
-
-        <div class="my-0 py-0 sm:py-0 lg:py-0 bg-(--ab-midships) rounded-md">
-                <UPageSection
-                    :ui="{
-                        container: 'card-glass-link py-8 sm:py-8 lg:py-8 gap-2 sm:gap-4',
-                        description: 'pb-4'
-                    }"
-                >
-                    <div v-for="page in newNavigation" :key="page.path">
-                        <UPageFeature
-                            :to="page.path"
-                            :title="page.title"
-                            :description="page.description"
-                            class="card-glass-link h-16 m-0 p-0 px-4 text-center"
-                        />
-                    </div>
-                </UPageSection>
-        </div>
+      <div
+        v-for="page in immediateSubpages"
+        :key="page.path"
+        class="card-glass-link h-16 m-0 p-0 text-center"
+      >
+        <ULink :to="page.path">
+          <div class="align-middle p-2 pb-0">
+            <!-- Page Title -->
+            <div class="leading-5 m-0 text-center text-base font-bold text-(--ui-primary)">
+              {{ page.title }}
+            </div>
+            <!-- Page Description -->
+            <div class="m-0 leading-5 text-xs text-(--ui-text)">
+              {{ page.description }}
+            </div>
+          </div>
+        </ULink>
+      </div>
     </div>
+    <div v-else>Loading Sub-Topics...</div>
+  </div>
+</template>
 
-</div></template>
+<script setup lang="ts">
+const route = useRoute()
+const currentPath = route.path
+
+const { data: allSubpages } = await useAsyncData(`subpages-${currentPath}`, () =>
+  queryCollection('docsTech')
+    .where('path', 'LIKE', `${currentPath}/%`)
+    .where('path', '<>', currentPath)
+    .all()
+)
+
+// Filter to get only immediate children
+const immediateSubpages = computed(() => {
+  if (!allSubpages.value) return []
+  return allSubpages.value.filter(page => {
+    const relativePath = page.path.slice(currentPath.length)
+    return !relativePath.slice(1).includes('/')
+  })
+})
+</script>
