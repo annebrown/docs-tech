@@ -10,4 +10,7 @@ Software tools to create, modify, and enhance digital images.
 
 ### Inkscape
 
-See [Inkscape Workflows](../../graphics/inkscape-v1.4)
+- [ ] TODO: Add link for workflows in docs-graphics repo
+
+
+See Inkscape Workflows. 

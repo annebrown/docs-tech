@@ -18,4 +18,7 @@ sudo apt install inkscape
 
 ### Workflows
 
-See [Inkscape Workflows](../../graphics/inkscape-v1.4)
+- [ ] TODO: Add link for workflows in docs-graphics repo
+
+
+See Inkscape Workflows. 
