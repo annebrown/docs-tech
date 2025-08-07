@@ -1,6 +1,7 @@
 ---
 title: Edge-Side Rendering
 description: Leveraging Edge Functions
+navigation: false 
 lastModified: '2025-01-13'
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Kubuntu 24.04 Desktop
 description: KDE Config and Issues
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

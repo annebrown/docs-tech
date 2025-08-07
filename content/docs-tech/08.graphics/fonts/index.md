@@ -1,6 +1,7 @@
 ---
 title: Fonts
 description: 'Font Config'
+navigation: false 
 lastModified: 2025-03-28
 ---
 

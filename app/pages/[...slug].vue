@@ -57,6 +57,7 @@ const links = computed(() => {
             :description="page.description"
             :links="page.links"
             :headline="headline"
+            class="pt-8 lg:pt-0"
         />
 
         <UPageBody>

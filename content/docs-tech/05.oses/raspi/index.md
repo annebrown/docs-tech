@@ -1,6 +1,7 @@
 ---
 title: RasPi
 description: RaspPi Operating System
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

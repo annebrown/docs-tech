@@ -1,6 +1,7 @@
 ---
 title: External Sources
 description: External /content Sources
+navigation: false 
 lastModified: '2025-01-11'
 ---
 

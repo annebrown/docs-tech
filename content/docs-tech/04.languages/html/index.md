@@ -1,6 +1,7 @@
 ---
 title: HTML
 description: HyperText Markup Language
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

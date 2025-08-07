@@ -15,14 +15,14 @@ export default defineAppConfig({
                 container: 'w-fit h-fit',
         //         list: '',
                 item: 'my-0',
-                listWithChildren: 'ms-2 mb-0.5',
+                listWithChildren: 'ms-0 mb-0.5',
                 itemWithChildren: 'data-[state=open]:mb-0.5',
                 link: 'py-0.5 before:inset-y-0 gap-1.5 text-xs leading-tight'
             }
         },
         contentSurround: {
             slots: {
-                root: 'my-0 py-0',
+                root: 'my-0 pt-8',
                 link: 'py-0'
             }
         },
@@ -60,6 +60,12 @@ export default defineAppConfig({
                 right: 'card-glass-narrow h-fit w-fit bg-(--ab-port-gunnel)'
             }
         },
+        pageAside: {
+            slots: {
+                root: 'lg:pe-0 lg:ms-0',
+                topHeader: 'mx-0'
+            }
+        },
         pageFeature: {
             slots: {
                 root: 'p-4 card-glass-link leading-5',
@@ -68,13 +74,13 @@ export default defineAppConfig({
         },
         pageHeader: {
             slots: {
-                root: 'pb-0',
+                root: 'py-0',
                 container: ''
             }
         },
         pageHero: {
             slots: {
-                container: 'w-full py-2 md:py-4 lg:py-8',
+                container: 'w-full py-2 sm:py-2 sm:gap-y-4',
             }
         },
         pageSection: {

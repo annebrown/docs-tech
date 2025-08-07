@@ -1,6 +1,7 @@
 ---
 title: MkDocs
 description: Docs-based SSG, written in Python
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Fetch
 description: Nuxt Fetch
+navigation: false 
 lastModified: '2025-01-26'
 ---
 

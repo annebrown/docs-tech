@@ -1,6 +1,7 @@
 ---
 title: SVGO
 description: Nuxt SVG Module
+navigation: false 
 lastModified: '2025-03-06'
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Konsole
 description: KDE Terminal Emulator
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Migrations
 description: Nuxt Migrations
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

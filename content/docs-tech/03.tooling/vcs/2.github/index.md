@@ -1,6 +1,7 @@
 ---
 title: Git
 description: Git Config
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

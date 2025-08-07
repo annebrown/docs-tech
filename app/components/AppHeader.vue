@@ -1,9 +1,14 @@
 <script setup lang="ts">
-    import type { DropdownMenuItem } from '@nuxt/ui'
-    // const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
     const { header } = useAppConfig()
     const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 
+    //Apex Removed, Topmost collapsed
+    const navigationWithoutApex = computed(() =>
+        navigation.value?.[0]?.children?.map(item => ({
+            ...item,
+            defaultOpen: false
+        })) ?? []
+    )
 </script>
 
 <template><div>
@@ -62,10 +67,15 @@
         </template>
 
         <template #body>
-            <UContentNavigation
-                highlight
-                :navigation="navigation"
-            />
+            <!-- <DebugObject v-if="1" :items="navigationWithoutApex" /> -->
+
+                    <UContentNavigation
+                        highlight
+                        type="multiple"
+                        defaultOpen=false
+                        :navigation="navigationWithoutApex"
+                         class="mx-0 px-0"
+                    />
         </template>
     </UHeader>
 </div></template>

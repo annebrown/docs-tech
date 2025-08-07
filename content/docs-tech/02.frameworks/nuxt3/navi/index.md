@@ -1,6 +1,7 @@
 ---
 title: Navi
 description: Nuxt Navi Notes
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

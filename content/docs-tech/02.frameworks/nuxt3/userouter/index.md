@@ -1,6 +1,7 @@
 ---
 title: useRouter()
 description: useRouter() Composable
+navigation: false 
 lastModified: '2025-01-28'
 
 ---

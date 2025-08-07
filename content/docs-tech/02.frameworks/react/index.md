@@ -1,6 +1,7 @@
 ---
 title: 'React'
 description: 'Front-End JavaScript UI Lib'
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

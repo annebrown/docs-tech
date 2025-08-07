@@ -1,6 +1,7 @@
 ---
 title: Desktops
 description: Linux Desktop Distros
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

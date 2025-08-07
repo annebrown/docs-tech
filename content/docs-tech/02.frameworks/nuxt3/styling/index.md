@@ -1,6 +1,7 @@
 ---
 title: Styling
 description: Nuxt CSS Styling
+navigation: false 
 lastModified: '2025-04-05'
 ---
 

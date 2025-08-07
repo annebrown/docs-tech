@@ -1,6 +1,7 @@
 ---
 title: Modules
 description: Nuxt Modules
+navigation: false 
 lastModified: '2025-03-11'
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Z-Index
 description: CSS Z-Index Property
+navigation: false
 lastModified: '2025-01-08'
 ---
 

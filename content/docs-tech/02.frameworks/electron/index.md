@@ -1,6 +1,7 @@
 ---
 title: Electron
 description: Electron Framework
+navigation: false 
 lastModified: '2025-01-08'
 ---
 
@@ -10,7 +11,7 @@ Open-source framework for developing cross-platform desktop apps using mature, s
 
 ## Framework
 
-Electron uses the Chromium engine (the open-source project for Google's Chrome browser) as the fundamental building block for most of its core functionality, including `Blink` (Rendering Engine) and V8 (JavaScript Engine) and many other components.
+Electron uses the Chromium engine (the open-source project for Google's Chrome browser) as the fundamental building block for most of its core functionality, including `Blink` (Rendering Engine) and V8 (JavaScript Engine), and many other components.
 
 ## Rendering
 

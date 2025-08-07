@@ -1,6 +1,7 @@
 ---
 title: ChromeOS
 description: Linux-based OS
+navigation: false 
 lastModified: '2025-01-08'
 ---
 

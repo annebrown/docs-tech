@@ -1,6 +1,7 @@
 ---
 title: Image Editors
 description: Graphical Design Tools
+navigation: false 
 lastModified: '2025-03-27'
 ---
 
