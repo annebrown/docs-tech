@@ -1,6 +1,5 @@
 <script setup lang="ts">
-    import { USeparator } from '#components';
-    import type { ContentNavigationItem } from '@nuxt/content'0006-docs-tech-V0.0.6-Aside-Links
+    import type { ContentNavigationItem } from '@nuxt/content'
 
     const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 

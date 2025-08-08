@@ -136,7 +136,7 @@ export default defineAppConfig({
                 {
                     icon: 'i-lucide-lab-toolbox-2',
                     label: 'Other Sites',
-                    to: 'https://prod.annebrown.ca',
+                    to: 'https://annebrown.ca/prod',
                 },
                                 {
                     icon: 'i-lucide-star',
