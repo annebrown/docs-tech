@@ -5,17 +5,25 @@ interface Props {
 }
 
 const props = defineProps<Props>();
-// const newVar = props.items //Using array in script setup
+const newVar = props.items //Using array in script setup
 </script>
 
 <template><div>
 
-    <h2>Array:</h2>
-    <div
+
+
+    <!-- <div
         v-for="(item,index) in props.items"
         :key="index"
     >
         <p>{{ item }}</p>
+    </div> -->
+
+    <div v-for="item in newVar.slice(0, 2)" :key="item.id">
+        <h2>Route - {{ item.path }}</h2>
+        <p>Title: {{ item.title }}</p>
+        <p>Stem: {{ item.stem }}</p>
+        <p>{{ item }} </p>
     </div>
 
 </div></template>

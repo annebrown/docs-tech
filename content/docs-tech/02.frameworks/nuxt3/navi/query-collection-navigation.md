@@ -20,6 +20,15 @@ const navigationWithoutApex = computed(() => navigation.value?.[0]?.children ?? 
 </template>
 ```
 
+## Request Additional Frontmatter
+
+```ts
+    const { data: navigation } = await useAsyncData(
+        'navigation',
+        () => queryCollectionNavigation('someCollectionName', ['description']))
+
+```
+
 ## Programmatically Control  Expanded Items
 
 ```vue

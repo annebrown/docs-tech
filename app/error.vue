@@ -1,13 +1,11 @@
 <script setup lang="ts">
+    import type { ContentNavigationItem } from '@nuxt/content'
     import { findPageHeadline } from '@nuxt/content/utils'
     import type { NuxtError } from '#app'
 
-    const title = 'Error'
-    const description = "Ah crap."
-    
     definePageMeta({
-        title: title,
-        description: description,
+        title: 'Error',
+        description: "Ah crap.",
         layout: 'docs-tech'
     })
 
@@ -51,8 +49,10 @@ const headline = computed(() => findPageHeadline(navigation, route.path))
             {{ description }}
         </p>
 
-        <hr class="mt-0 -ml-1 -mr-1 mb-10 pt-0 ab-hr">
-    <UError :error="error" />
+        <hr class="mt-2 -ml-1 -mr-1  pt-0 ab-hr">
+
+        <UError :error="error" />
+
       </NuxtLayout>
     </UMain>
 

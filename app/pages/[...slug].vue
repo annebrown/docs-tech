@@ -1,51 +1,52 @@
 <script setup lang="ts">
     import { findPageHeadline } from '@nuxt/content/utils'
+    import type { ContentNavigationItem } from '@nuxt/content'
 
-
-definePageMeta({
-  layout: 'docs-tech'
-})
-
-const route = useRoute()
-
-const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
-const toc = ""
-
-const { data: page } = await useAsyncData(
-    route.path,
-    () => queryCollection('docsTech').path(route.path).first()
-)
-if (!page.value) {
-  throw createError({
-    statusCode: 404,
-    statusMessage: 'Page not found',
-    fatal: true })
-}
-
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('docsTech', route.path, {
-    fields: ['title', 'description']
-  })
-})
-
-const headline = computed(() => findPageHeadline(navigation, route.path))
-
-defineOgImageComponent('Docs-Tech', {
-  headline: headline.value
-})
-
-const links = computed(() => {
-  const links = []
-  if (toc?.bottom?.edit) {
-    links.push({
-      icon: 'i-lucide-external-link',
-      label: 'Edit this page',
-      to: `${toc.bottom.edit}/${page?.value?.stem}.${page?.value?.extension}`,
+    definePageMeta({
+        layout: 'docs-tech'
     })
-  }
 
-  return [...links, ...(toc?.bottom?.links || [])].filter(Boolean)
-})
+    const route = useRoute()
+
+    const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+    const { toc } = useAppConfig()
+
+    const { data: page } = await useAsyncData(
+        route.path,
+        () => queryCollection('docsTech').path(route.path).first()
+    )
+    if (!page.value) {
+        throw createError({
+            statusCode: 404,
+            statusMessage: 'Page not found',
+            fatal: true })
+    }
+
+    const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
+    return queryCollectionItemSurroundings('docsTech', route.path, {
+        fields: ['title', 'description']
+    })
+    })
+
+    // const headline = computed(() => findPageHeadline(navigation, route.path))
+
+    // defineOgImageComponent('Docs-Tech', {
+    // headline: headline.value
+    // })
+    const headline = "HEADLINE"
+
+    const links = computed(() => {
+    const links = []
+
+    if (toc?.bottom?.edit) {
+        links.push({
+        icon: 'i-lucide-external-link',
+        label: 'Edit this page',
+        to: `${toc.bottom.edit}/${page?.value?.stem}.${page?.value?.extension}`,
+        })
+    }
+        return [...links, ...(toc?.bottom?.links || [])].filter(Boolean)
+    })
 </script>
 
 <template><div>
@@ -68,7 +69,7 @@ const links = computed(() => {
 
             <!-- Child Route Cards-->
             <div class="w-full mx-auto mb-0 p-0 pt-8 px-2">
-                <ImmediateChildCards />
+                <ImmediateChildCardsCollections />
             </div>
 
             <!-- <USeparator v-if="surround?.length" /> -->
@@ -84,6 +85,7 @@ const links = computed(() => {
                 <UContentToc
                     :title="toc?.title"
                     :links="page.body?.toc?.links"
+
                 >
                     <!-- Links Under TOC -->
                     <template v-if="toc?.bottom" #bottom >

@@ -43,7 +43,10 @@ export default defineAppConfig({
         header: {
             slots: {
                 root: 'h-12',
-                container: 'bg-(--ui-bg) py-0'
+                container: 'bg-(--ui-bg) py-0',
+                toggle: 'lg:block',
+                content: 'lg:block',
+                overlay: 'lg:block',
             }
         },
         main: {
@@ -121,29 +124,26 @@ export default defineAppConfig({
         ]
     },
     toc: {
-        title: 'Shortcuts',
+        title: 'On this Page',
         bottom: {
-            title: 'Community',
-            edit: 'https://github.com/nuxt-ui-pro/docs/edit/main/content',
+            title: 'Links',
             links: [
                 {
+                    icon: 'i-lucide-lab-home',
+                    label: 'Home',
+                    to: '/',
+                },
+                {
+                    icon: 'i-lucide-lab-toolbox-2',
+                    label: 'Other Sites',
+                    to: 'https://prod.annebrown.ca',
+                },
+                                {
                     icon: 'i-lucide-star',
                     label: 'Star on GitHub',
-                    to: 'https://github.com/nuxt/ui',
+                    to: 'https://github.com/annebrown/docs-tech',
                     target: '_blank'
                 },
-                {
-                    icon: 'i-lucide-book-open',
-                    label: 'Nuxt UI Pro docs',
-                    to: 'https://ui.nuxt.com/getting-started/installation/pro/nuxt',
-                    target: '_blank'
-                },
-                {
-                    icon: 'i-simple-icons-nuxtdotjs',
-                    label: 'Purchase a license',
-                    to: 'https://ui.nuxt.com/pro/purchase',
-                    target: '_blank'
-                }
             ]
         }
     },

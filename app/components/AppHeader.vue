@@ -1,32 +1,23 @@
 <script setup lang="ts">
+    import NaviMenu from './NaviMenu.vue';
     const { header } = useAppConfig()
-    const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
-
-    //Apex Removed, Topmost collapsed
-    const navigationWithoutApex = computed(() =>
-        navigation.value?.[0]?.children?.map(item => ({
-            ...item,
-            defaultOpen: false
-        })) ?? []
-    )
 </script>
 
 <template><div>
     <UHeader
         :ui="{ center: 'flex-1' }"
-        :to="header?.to || '/'"
-
+        :to="'/'"
         toggle-side="right"
         mode="slideover"
     >
         <template #title>
+
             <!-- Logo and Domain Name -->
             <div class="mt-10">
 
                 <!-- Logo -->
                 <ULink href='/'>
-                    <Logo class="z-0 inline-block w-18 h-auto
-                        m-0 p-1 pr-0"/>
+                    <Logo class="z-0 inline-block w-18 h-auto m-0 p-1 pr-0"/>
                 </ULink>
 
                 <!-- Domain Name -->
@@ -66,16 +57,8 @@
             />
         </template>
 
-        <template #body>
-            <!-- <DebugObject v-if="1" :items="navigationWithoutApex" /> -->
-
-                    <UContentNavigation
-                        highlight
-                        type="multiple"
-                        defaultOpen=false
-                        :navigation="navigationWithoutApex"
-                         class="mx-0 px-0"
-                    />
+        <template #body class="w-fit ">
+          <NaviMenu />
         </template>
     </UHeader>
 </div></template>

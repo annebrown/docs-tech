@@ -14,8 +14,8 @@
 
     const { data: navigation } = await useAsyncData(
         'navigation',
-        () => queryCollectionNavigation('docsTech')
-    )
+        () => queryCollectionNavigation('docsTech', ['description']))
+
     const { data: files } = useLazyAsyncData(
         'search',
         () => queryCollectionSearchSections('docsTech'),
