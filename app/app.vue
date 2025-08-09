@@ -34,7 +34,7 @@
     <AppHeader class="" />
 
     <UMain   class="mx-2 md:mx-8 rounded-md">
-      <NuxtLayout>
+      <NuxtLayout  class="mx-auto">
         <NuxtPage/>
       </NuxtLayout>
     </UMain>

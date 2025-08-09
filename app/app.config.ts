@@ -12,7 +12,7 @@ export default defineAppConfig({
         contentNavigation: {
             slots: {
                 //         root: '',
-                container: "w-fit h-fit",
+                container: "w-fit h-fit lg:h-fit",
                 //         list: '',
                 item: "my-0",
                 listWithChildren: "ms-0 mb-0.5",
@@ -57,9 +57,9 @@ export default defineAppConfig({
         },
         page: {
             slots: {
-                container: "relative m-0 p-0",
+                container: "m-0 p-0",
                 center: "bg-(--ab-midships) rounded",
-                left: "absolute top-4 left-2 card-glass-narrow h-fit bg-(--ab-port-gunnel)",
+                left: "card-glass-narrow  h-fit lg:h-fit bg-(--ab-port-gunnel)",
                 right: "card-glass-narrow h-fit w-fit bg-(--ab-port-gunnel)",
             },
         },
@@ -84,7 +84,7 @@ export default defineAppConfig({
         },
         pageHero: {
             slots: {
-                container: "w-full py-2 sm:py-2 sm:gap-y-4 lg:py-2",
+                container: "py-2 sm:py-2 sm:gap-y-4 lg:py-2",
             },
         },
         pageSection: {

@@ -38,7 +38,7 @@
         </template>
 
         <!-- Search Bar -->
-        <UContentSearchButton :collapsed="false" class="w-full" />
+        <UContentSearchButton :collapsed="false" class="" />
 
         <!-- Right Header -->
         <template #right>
@@ -57,7 +57,7 @@
             />
         </template>
 
-        <template #body class="w-fit ">
+        <template #body class="w-fit">
           <NaviMenu />
         </template>
     </UHeader>
