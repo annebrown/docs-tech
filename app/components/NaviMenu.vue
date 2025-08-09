@@ -4,9 +4,9 @@
 
     //Apex Removed, Topmost collapsed
     const navigationWithoutApex = computed(() =>
-    navigation.value?.[0]?.children?.map(item => ({
-    ...item,
-    })) ?? []
+        navigation.value?.[0]?.children?.map(item => ({
+        ...item,
+        })) ?? []
     )
 </script>
 

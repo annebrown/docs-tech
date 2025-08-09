@@ -1,25 +1,33 @@
 <script setup lang="ts">
+    import { ref, onMounted } from 'vue'
     import { findPageChildren } from '@nuxt/content/utils'
     import type { ContentNavigationItem } from '@nuxt/content'
 
     const route = useRoute()
-
-
-//     const title = computed(() => page.value?.title || `Undefined page meta title for route - ${route.path}`)
-//     const description = computed(() => page.value?.description || `Undefined page meta description, for route - ${route.path}`)
-
     const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
-
     const navigationWithoutApex = computed(() =>
         navigation.value?.[0]?.children?.map(item => ({
             ...item,
         })) ?? []
     )
-    const children = findPageChildren(navigationWithoutApex.value, route.path)
-
-    // const title = page.value.title
-    // const description = page.description
-    // const lastModified = page.meta.lastModified
+    const children = computed(() =>
+    findPageChildren(navigationWithoutApex.value, route.path)
+    )
+    const childrenWithDescriptions = ref([])
+    onMounted(async () => {
+        // Fetch description for each child
+        const results = await Promise.all(
+            children.value.map(async (child) => {
+                // Query the content for this child's path
+                const page = await queryCollection('docsTech').path(child.path).first()
+                return {
+                    ...child,
+                    description: page?.description // Add description from frontmatter
+                }
+            })
+        )
+        childrenWithDescriptions.value = results
+    })
 
 </script>
 
@@ -27,21 +35,21 @@
 
     <div v-if="0"><!-- DEBUG -->
         <p class="text-4xl text-error">
-            <!-- CHILDREN - Current path: {{ route.path }} -->
+            CHILDREN - Current path: {{ route.path }}
         </p>
-        <!-- <DebugObject :items="children" /> -->
-        <!-- <p class="text-4xl text-error">
+        <DebugObject :items="childrenWithDescriptions" />
+        <p class="text-4xl text-error">
             NAVIGATION - Current path: {{ route.path }}
         </p>
-        <DebugObject :items="navigation" /> -->
+        <DebugObject :items="navigation" />
     </div>
 
     <div
-        v-if="children && children.length"
+        v-if="childrenWithDescriptions && childrenWithDescriptions.length"
         class="flex flex-row items-center justify-center gap-4 flex-wrap mx-auto"
     >
         <div
-            v-for="item in children"
+            v-for="item in childrenWithDescriptions"
             :key="item.path"
             class="h-16 m-0 p-0 text-center"
         >

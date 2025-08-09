@@ -57,16 +57,17 @@ export default defineAppConfig({
         },
         page: {
             slots: {
-                container: 'm-0 p-0',
+                container: 'relative m-0 p-0',
                 center: 'bg-(--ab-midships) rounded',
-                left: 'card-glass-narrow h-fit bg-(--ab-port-gunnel)',
+                left: 'absolute top-4 left-2 card-glass-narrow h-fit bg-(--ab-port-gunnel)',
                 right: 'card-glass-narrow h-fit w-fit bg-(--ab-port-gunnel)'
             }
         },
         pageAside: {
             slots: {
                 root: 'lg:pe-0 lg:ms-0',
-                topHeader: 'mx-0'
+                topHeader: 'mx-0',
+                container: ''
             }
         },
         pageFeature: {

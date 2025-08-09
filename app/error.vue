@@ -41,12 +41,12 @@ const headline = computed(() => findPageHeadline(navigation, route.path))
 
         <!-- Title -->
         <h1 class="pt-6 pb-4  text-4xl font-extrabold text-center text-(--ui-secondary)">
-            {{ title }}
+            {{ route.title }}
         </h1>
 
         <!-- Description -->
         <p class="mt-4 mb-0 pb-0 pl-4">
-            {{ description }}
+            {{ route.description }}
         </p>
 
         <hr class="mt-2 -ml-1 -mr-1  pt-0 ab-hr">

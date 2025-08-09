@@ -9,9 +9,6 @@ const newVar = props.items //Using array in script setup
 </script>
 
 <template><div>
-
-
-
     <!-- <div
         v-for="(item,index) in props.items"
         :key="index"
@@ -20,8 +17,9 @@ const newVar = props.items //Using array in script setup
     </div> -->
 
     <div v-for="item in newVar.slice(0, 2)" :key="item.id">
-        <h2>Route - {{ item.path }}</h2>
+        <h2 class="text-orange-400 text-2xl">Route - {{ item.path }}</h2>
         <p>Title: {{ item.title }}</p>
+        <p class="text-2xl text-lime-400">Description: {{ item.description }}</p>
         <p>Stem: {{ item.stem }}</p>
         <p>{{ item }} </p>
     </div>
