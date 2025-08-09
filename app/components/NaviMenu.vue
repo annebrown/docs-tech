@@ -28,6 +28,7 @@
         highlight
         type="multiple"
         collapsed
+        defaultOpen
         :navigation="navigationWithoutApex"
         class="mx-0 px-0"
     />
