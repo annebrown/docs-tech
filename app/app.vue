@@ -28,15 +28,17 @@
 </script>
 
 <template>
-  <UApp>
+  <UApp class="bg-(--ab-water)">
     <NuxtLoadingIndicator />
 
-    <AppHeader class="" />
+    <AppHeader class="bg-(--ab-water)" />
 
-    <UMain   class="mx-2 md:mx-8 rounded-md">
+    <UMain   class="rounded-lg bg-(--ab-ship)">
+
       <NuxtLayout  class="mx-auto">
-        <NuxtPage/>
+        <NuxtPage  class=""/>
       </NuxtLayout>
+
     </UMain>
 
     <AppFooter />

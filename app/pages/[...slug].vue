@@ -50,8 +50,9 @@
 </script>
 
 <template><div>
-
-    <UPage v-if="page">
+    <div class=" bg-(--ab-midships) -ml-56 rounded-lg">
+    <div  class="pl-50 -mr-4">
+    <UPage v-if="page"  class=" ">
 
         <UPageHeader
             :title="page.title"
@@ -61,7 +62,7 @@
             class="pt-8"
         />
 
-        <UPageBody>
+        <UPageBody class="mr-0">
 
             <DebugObject v-if="0" :items="navigation" />
 
@@ -79,16 +80,17 @@
         </UPageBody>
 
         <!-- Star Gunnel -->
-        <template v-if="page?.body?.toc?.links?.length" #right class="card-glass-narrow">
+        <template v-if="page?.body?.toc?.links?.length" #right class="">
             <div class="">
                 <!-- Page TOC -->
                 <UContentToc
                     :title="toc?.title"
                     :links="page.body?.toc?.links"
 
+
                 >
                     <!-- Links Under TOC -->
-                    <template v-if="toc?.bottom" #bottom >
+                    <template v-if="toc?.bottom" #bottom  class="">
                         <div
                             class="hidden md:block space-y-6"
                             :class="{ '!mt-6': page.body?.toc?.links?.length }"
@@ -109,4 +111,6 @@
         </template><!-- Star Gunnel -->
 
     </UPage>
+    </div>
+    </div>
 </div></template>

@@ -16,7 +16,7 @@
 
         <UPage>
             <template #left  class="">
-                <div class="ml-2">
+                <div class="ml-2 ">
                     <UPageAside >
                         <NaviMenu class=" mx-0 px-0"/>
                     </UPageAside>

@@ -11,8 +11,8 @@ export default defineAppConfig({
     uiPro: {
         contentNavigation: {
             slots: {
-                //         root: '',
-                container: "w-fit h-fit lg:h-fit",
+                root: 'w-60 md:w-60 lg:w-60',
+                container: "h-fit lg:h-fit",
                 //         list: '',
                 item: "my-0",
                 listWithChildren: "ms-0 mb-0.5",
@@ -28,13 +28,15 @@ export default defineAppConfig({
         },
         contentToc: {
             slots: {
-                root: "rounded-md backdrop-none lg:bg-default/75 mx-0 sm:mx-0 border-0",
-                container: "",
+                root: "w-fit rounded-md bg-transparent lg:bg-transparent card-glass-narrow mx-0 sm:mx-0 border-0 backdrop-none blur-none",
+                container: "backdrop-none blur-none",
+                class: "backdrop-none"
             },
         },
         footer: {
             slots: {
-                container: "bg-(--ab-transom) py-2 lg:py-2",
+                root: "bg-(--ab-transom)",
+                container: "py-2 lg:py-2",
                 top: "py-0 lg:py-0",
                 bottom: "py-0 lg:py-0",
                 left: "text-xs",
@@ -42,25 +44,26 @@ export default defineAppConfig({
         },
         header: {
             slots: {
-                root: "h-12",
-                container: "bg-(--ui-bg) py-0",
+                root: "h-12 bg-(--ab-bow)",
+                container: "py-0",
                 toggle: "lg:block",
                 content: "lg:block",
                 overlay: "lg:block",
             },
         },
         main: {
-            base: "min-h-fit bg-(--ab-midships) mx-4 py-12",
+            base: "min-h-fit mx-4 py-12",
         },
         pageBody: {
-            base: "py-0 bg-(--ab-midships)",
+            base: "py-0",
         },
         page: {
             slots: {
+                root: "gap-0 lg:gap-0",
                 container: "m-0 p-0",
-                center: "bg-(--ab-midships) rounded",
-                left: "card-glass-narrow  h-fit lg:h-fit bg-(--ab-port-gunnel)",
-                right: "card-glass-narrow h-fit w-fit bg-(--ab-port-gunnel)",
+                center: "mr-22 pr-4 pl-8",
+                left: "z-100 mt-5 card-glass-narrow h-fit lg:h-fit",
+                right: "mt-5 lg:order-last lg:col-span-1 h-fit",
             },
         },
         pageAside: {

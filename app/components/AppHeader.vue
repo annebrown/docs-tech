@@ -57,7 +57,7 @@
             />
         </template>
 
-        <template #body class="w-fit">
+        <template #body class="">
           <NaviMenu />
         </template>
     </UHeader>

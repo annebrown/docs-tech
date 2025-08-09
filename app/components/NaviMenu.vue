@@ -14,15 +14,15 @@
     <DebugObject v-if="0" :items="navigationWithoutApex" />
 
     <ul class="font-extrabold text-md">
-        <li><ULink to="/">Home</ULink></li>
-        <li><ULink to="/about">About</ULink></li>
+        <li><UIcon name="i-lucide-home" /> <ULink to="/">Home</ULink></li>
+        <li><UIcon name="i-lucide-info" /> <ULink to="/about">About</ULink></li>
     </ul>
 
-    <USeparator class="py-4" color="secondary"/>
+    <USeparator type="solid" class="pr-7 py-4" />
 
-    <!-- <p class="pb-4 font-extrabold text-sm">
-        Tech Docs
-    </p> -->
+    <!-- <ul class="pb-2 font-extrabold text-md">
+        <li><UIcon name="i-lucide-book-open" /> <ULink to="/docs-tech">Tech Docs</ULink></li>
+    </ul> -->
 
     <UContentNavigation v-if="navigationWithoutApex"
         highlight
