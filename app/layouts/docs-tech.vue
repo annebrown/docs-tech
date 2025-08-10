@@ -16,9 +16,9 @@
 
         <UPage>
             <template #left  class="">
-                <div class="ml-2 ">
+                <div class="w-full">
                     <UPageAside >
-                        <NaviMenu class=" mx-0 px-0"/>
+                        <NaviMenu class="mx-0 p-4 card-glass-narrow"/>
                     </UPageAside>
                 </div>
             </template>

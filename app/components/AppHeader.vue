@@ -13,7 +13,7 @@
         <template #title>
 
             <!-- Logo and Domain Name -->
-            <div class="mt-10">
+            <div class="mt-8">
 
                 <!-- Logo -->
                 <ULink href='/'>
@@ -58,7 +58,7 @@
         </template>
 
         <template #body class="">
-          <NaviMenu />
+          <NaviMenu  class=""/>
         </template>
     </UHeader>
 </div></template>

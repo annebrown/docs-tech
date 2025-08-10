@@ -36,7 +36,7 @@ const headline = computed(() => findPageHeadline(navigation, route.path))
             :description="route.description"
             :headline="headline"
         />
-    <UMain   class="mx-2 md:mx-8 rounded-md">
+    <UMain   class="mx-2 rounded-md">
       <NuxtLayout>
 
         <!-- Title -->

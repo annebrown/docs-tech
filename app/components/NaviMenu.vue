@@ -14,8 +14,8 @@
     <DebugObject v-if="0" :items="navigationWithoutApex" />
 
     <ul class="font-extrabold text-md">
-        <li><UIcon name="i-lucide-home" /> <ULink to="/">Home</ULink></li>
-        <li><UIcon name="i-lucide-info" /> <ULink to="/about">About</ULink></li>
+        <li class="pb-1"><UIcon name="i-lucide-book-open" class="size-5 align-middle" /> <ULink to="/">Home</ULink></li>
+        <li><UIcon name="i-lucide-info" class="size-5 align-middle" /> <ULink to="/about">About</ULink></li>
     </ul>
 
     <USeparator type="solid" class="pr-7 py-4" />

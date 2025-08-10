@@ -46,24 +46,24 @@
 
     <div
         v-if="childrenWithDescriptions && childrenWithDescriptions.length"
-        class="flex flex-row items-center justify-center gap-4 flex-wrap mx-auto"
+        class="w-full mx-auto mb-0 p-0 pt-8 px-2 flex flex-row items-center justify-center gap-4 flex-wrap mx-auto"
     >
         <div
             v-for="item in childrenWithDescriptions"
             :key="item.path"
-            class="h-16 m-0 p-0 text-center"
+            class="h-22 m-0 p-0 text-center"
         >
 
             <ULink :to="item.path">
                 <div class="card-glass-link align-middle p-2 pb-0">
 
                     <!-- Page Title -->
-                    <div class="leading-5 m-0 text-center text-base font-bold text-(--ui-primary)">
+                    <div class="leading-5 m-0 p-2 text-center text-base font-bold text-(--ui-primary)">
                         {{ item.title }}
                     </div>
 
                     <!-- Page Description -->
-                    <div class="m-0 leading-5 text-xs text-(--ui-text)">
+                    <div class="m-0 p-2 leading-5 text-xs text-(--ui-text)">
                         {{ item.description }}
                     </div>
 
@@ -72,7 +72,5 @@
 
         </div>
     </div>
-
-    <div v-else>Loading Sub-Topics...</div>
 
 </div></template>

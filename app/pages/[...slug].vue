@@ -28,12 +28,12 @@
     })
     })
 
-    // const headline = computed(() => findPageHeadline(navigation, route.path))
+    const headline = computed(() => findPageHeadline(navigation, route.path))
 
     // defineOgImageComponent('Docs-Tech', {
     // headline: headline.value
     // })
-    const headline = "HEADLINE"
+    // const headline = "HEADLINE"
 
     const links = computed(() => {
     const links = []
@@ -45,14 +45,15 @@
         to: `${toc.bottom.edit}/${page?.value?.stem}.${page?.value?.extension}`,
         })
     }
-        return [...links, ...(toc?.bottom?.links || [])].filter(Boolean)
+
+    return [...links, ...(toc?.bottom?.links || [])].filter(Boolean)
     })
 </script>
 
 <template><div>
-    <div class=" bg-(--ab-midships) -ml-56 rounded-lg">
-    <div  class="pl-50 -mr-4">
-    <UPage v-if="page"  class=" ">
+    <div class="">
+    <div  class="">
+    <UPage v-if="page"  class="lg:ml-8 pl-4 lg:pl-4 pr-4">
 
         <UPageHeader
             :title="page.title"
@@ -62,14 +63,14 @@
             class="pt-8"
         />
 
-        <UPageBody class="mr-0">
+        <UPageBody class="">
 
             <DebugObject v-if="0" :items="navigation" />
 
-            <ContentRenderer v-if="page" :value="page" class="py-0 my-0"/>
+            <ContentRenderer v-if="page" :value="page" class=""/>
 
             <!-- Child Route Cards-->
-            <div class="w-full mx-auto mb-0 p-0 pt-8 px-2">
+            <div class="">
                 <ImmediateChildCardsCollections />
             </div>
 
@@ -80,19 +81,18 @@
         </UPageBody>
 
         <!-- Star Gunnel -->
-        <template v-if="page?.body?.toc?.links?.length" #right class="">
-            <div class="">
+        <template v-if="page?.body?.toc?.links?.length" #right class="m-0 p-0">
+            <div class="m-0 p-0">
                 <!-- Page TOC -->
                 <UContentToc
                     :title="toc?.title"
                     :links="page.body?.toc?.links"
-
-
+                    class="w-fit"
                 >
                     <!-- Links Under TOC -->
                     <template v-if="toc?.bottom" #bottom  class="">
                         <div
-                            class="hidden md:block space-y-6"
+                            class="block space-y-6"
                             :class="{ '!mt-6': page.body?.toc?.links?.length }"
                         >
                             <USeparator

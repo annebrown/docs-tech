@@ -33,9 +33,9 @@
 
     <AppHeader class="bg-(--ab-water)" />
 
-    <UMain   class="rounded-lg bg-(--ab-ship)">
+    <UMain   class="mb-0 rounded-lg bg-(--ab-ship)">
 
-      <NuxtLayout  class="mx-auto">
+      <NuxtLayout  class="mx-auto lg:pr-6 lg:pl-0">
         <NuxtPage  class=""/>
       </NuxtLayout>
 

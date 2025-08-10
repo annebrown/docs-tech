@@ -7,11 +7,12 @@ export default defineAppConfig({
             neutral: "gray",
             secondary: "gray",
         },
+
     },
     uiPro: {
         contentNavigation: {
             slots: {
-                root: 'w-60 md:w-60 lg:w-60',
+                root: 'pr-1',
                 container: "h-fit lg:h-fit",
                 //         list: '',
                 item: "my-0",
@@ -23,14 +24,14 @@ export default defineAppConfig({
         contentSurround: {
             slots: {
                 root: "my-0 pt-8",
-                link: "py-0",
+                link: "py-2",
             },
         },
         contentToc: {
             slots: {
-                root: "w-fit rounded-md bg-transparent lg:bg-transparent card-glass-narrow mx-0 sm:mx-0 border-0 backdrop-none blur-none",
-                container: "backdrop-none blur-none",
-                class: "backdrop-none"
+                root: "w-fit lg:mt-2 mx-0 sm:mx-0 px-4 lg:px-4 border-0 rounded-md card-glass-narrow",
+                container: "",
+                class: ""
             },
         },
         footer: {
@@ -44,31 +45,31 @@ export default defineAppConfig({
         },
         header: {
             slots: {
-                root: "h-12 bg-(--ab-bow)",
+                root: "",
                 container: "py-0",
-                toggle: "lg:block",
+                toggle: "lg:block text-primary",
                 content: "lg:block",
                 overlay: "lg:block",
             },
         },
         main: {
-            base: "min-h-fit mx-4 py-12",
+            base: "min-h-fit mx-0 lg:mx-4 py-2 pt-8",
         },
         pageBody: {
             base: "py-0",
         },
         page: {
             slots: {
-                root: "gap-0 lg:gap-0",
-                container: "m-0 p-0",
-                center: "mr-22 pr-4 pl-8",
-                left: "z-100 mt-5 card-glass-narrow h-fit lg:h-fit",
-                right: "mt-5 lg:order-last lg:col-span-1 h-fit",
+                root: "relative lg:gap-0",
+                container: "",
+                center: "lg:flex-none m-0 p-0 pb-2 rounded-lg bg-(--ab-midships)",
+                left: "z-100 lg:col-span-2 w-fit",
+                right: "lg:absolute lg:top-4 mt-2 lg:-right-4 lg:mt-2",
             },
         },
         pageAside: {
             slots: {
-                root: "lg:pe-0 lg:ms-0",
+                root: "lg:pe-0 lg:ms-0 py-0",
                 topHeader: "mx-0",
                 container: "",
             },
