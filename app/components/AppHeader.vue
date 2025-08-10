@@ -24,13 +24,12 @@
                 <div class='z-10 inline-block align-top pt-5 pl-0.25
                     text-[--accent-light] dark:text-[--accent-dark]'>
 
-                    <ULink href='/'>
+
                         <span class="w-fit h-fit m-0 p-0
                             text-primary text-[12px]"
                         >
-                            -<span class="text-(--ui-secondary)">tech</span>.annebrown.ca
+                            -<span class="text-(--ui-secondary)">tech</span>.  <ULink href='https://annebrown.ca'>annebrown.ca</ULink>
                         </span>
-                    </ULink>
 
                 </div><!-- Domain Name -->
 

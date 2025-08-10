@@ -47,7 +47,7 @@ const headline = "Public Docs"
         <p class="mb-4 pl-4 text-sm">
 
             <ULink
-                to="https://prod.annebrown.ca"
+                to="https://annebrown.ca/prod"
                 class="inline-block m-0 -mt-3 p-0 pt-2"
             >
                 Other Sites
