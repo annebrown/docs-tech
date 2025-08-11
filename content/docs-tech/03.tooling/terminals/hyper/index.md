@@ -1,7 +1,7 @@
 ---
 title: Hyper
 description: Terminal Emulator
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-01-08'
 ---
 

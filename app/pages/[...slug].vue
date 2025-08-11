@@ -70,13 +70,13 @@
             <ContentRenderer v-if="page" :value="page" class=""/>
 
             <!-- Child Route Cards-->
-            <div class="">
+            <div class="mb-0 pb-0">
                 <ImmediateChildCardsCollections />
             </div>
 
             <!-- <USeparator v-if="surround?.length" /> -->
 
-            <UContentSurround :surround="surround" />
+            <UContentSurround :surround="surround" class="m-0 p-0"/>
 
         </UPageBody>
 
@@ -87,7 +87,7 @@
                 <UContentToc
                     :title="toc?.title"
                     :links="page.body?.toc?.links"
-                    class="w-fit"
+                    class="w-fit card-glass-narrow bg-transparent dark:bg-transparent"
                 >
                     <!-- Links Under TOC -->
                     <template v-if="toc?.bottom" #bottom  class="">

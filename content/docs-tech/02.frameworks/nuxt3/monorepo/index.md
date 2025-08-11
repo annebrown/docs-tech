@@ -1,7 +1,7 @@
 ---
 title: Monorepos
 description: Nuxt Monorepos
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-02-07'
 ---
 

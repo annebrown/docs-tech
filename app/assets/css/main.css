@@ -156,10 +156,18 @@ table { @apply rounded-md bg-(--ui-bg); }
 /**************************************************************************/
 /* Shadow - stone-300 dark:gray-900 */
 .card-glass-narrow { @apply
-    rounded-md bg-transparent dark:bg-gray-950/20
+    rounded-md bg-(--ui-bg)
     border border-stone-200 dark:border-gray-700
     shadow-[2px_2px_0_0_#a8a29e] dark:shadow-[2px_2px_0_0_#0f172a];
 }
+/* .card-glass-link-darker { @apply
+    rounded-md bg-(--ui-bg) dark:bg-gray-950/20 border
+    dark:border-none border-gray-100
+    shadow-[2px_2px_0_0_#a8a29e] dark:shadow-[2px_2px_0_0_#0f172a]
+    hover:shadow-[3px_3px_0_0_#a8a29e] dark:hover:shadow-[3px_3px_0_0_black]
+    cursor-pointer transition ease-in-out;
+} */
+
 .card-glass-link { @apply
     rounded-md bg-(--ui-bg) dark:bg-gray-950/20 border
     dark:border-none border-gray-100

@@ -1,7 +1,7 @@
 ---
 title: DPAC
 description: Open-Source CMS Technology
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-03-17'
 ---
 

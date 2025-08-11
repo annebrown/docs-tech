@@ -1,7 +1,7 @@
 ---
 title: JavaScript
 description: JavaScript Programming Lang
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-01-08'
 ---
 

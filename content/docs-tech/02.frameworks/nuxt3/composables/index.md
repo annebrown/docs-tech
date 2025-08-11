@@ -1,7 +1,7 @@
 ---
 title: Composables
 description: Nuxt Composables
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-01-28'
 
 ---

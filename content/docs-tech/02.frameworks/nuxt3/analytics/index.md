@@ -1,7 +1,7 @@
 ---
 title: Analytics
 description: Adding Analytics
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-02-21'
 ---
 

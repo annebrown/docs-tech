@@ -1,7 +1,7 @@
 ---
 title: Win11
 description: Win11 Notes
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-01-08'
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: CMS
 description: Content Management System Tooling
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-03-17'
 ---
 

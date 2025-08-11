@@ -1,7 +1,7 @@
 ---
 title: Tailwind 4
 description: Using Tailwind with Nuxt
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-04-05'
 ---
 

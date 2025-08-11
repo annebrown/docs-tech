@@ -1,7 +1,7 @@
 ---
 title: VSCode
 description: Visual Studio Code IDE
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-02-26'
 ---
 

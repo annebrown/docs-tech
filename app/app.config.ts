@@ -29,7 +29,7 @@ export default defineAppConfig({
         },
         contentToc: {
             slots: {
-                root: "w-fit lg:mt-2 mx-0 sm:mx-0 px-4 lg:px-4 border-0 rounded-md card-glass-narrow",
+                root: "w-fit lg:mt-2 mx-0 sm:mx-0 px-4 lg:px-4 rounded-md",
                 container: "",
                 class: ""
             },

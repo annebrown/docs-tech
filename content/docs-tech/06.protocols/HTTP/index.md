@@ -1,7 +1,7 @@
 ---
 title: HTTP
 description: 'Hypertext Transfer Protocol'
-navigation: false 
+<!-- navigation: false --> 
 lastModified: 2025-01-08
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Fonts
 description: Nuxt Fonts Module
-navigation: false 
+<!-- navigation: false --> 
 lastModified: '2025-04-05'
 ---
 
