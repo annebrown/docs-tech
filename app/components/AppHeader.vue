@@ -28,7 +28,7 @@
                         <span class="w-fit h-fit m-0 p-0
                             text-primary text-[12px]"
                         >
-                            -<span class="text-(--ui-secondary)">tech</span>.  <ULink href='https://annebrown.ca'>annebrown.ca</ULink>
+                            -<span class="text-(--ui-secondary)">tech</span>.  <span><a href='https://annebrown.ca'>annebrown.ca</a></span>
                         </span>
 
                 </div><!-- Domain Name -->
