@@ -5,8 +5,8 @@ export default withNuxt(
     {
         rules: {
         'indent': ['error', 4],
-        'quotes': ['error', 'single'],
-        'semi': ['error', 'always'],
+        // 'quotes': ['error', 'single'],
+        // 'semi': ['error', 'always'],
         },
     },
 )
