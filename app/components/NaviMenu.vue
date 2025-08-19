@@ -15,7 +15,7 @@
 
     <ul class="font-extrabold text-md">
         <li class="pb-1"><UIcon name="i-lucide-book-open" class="size-5 align-middle" /> <ULink to="/">Home</ULink></li>
-        <li><UIcon name="i-lucide-info" class="size-5 align-middle" /> <ULink to="/about">About</ULink></li>
+        <!-- <li><UIcon name="i-lucide-info" class="size-5 align-middle" /> <ULink to="/about">About</ULink></li> -->
     </ul>
 
     <USeparator type="solid" class="pr-7 py-4" />
@@ -32,4 +32,12 @@
         :navigation="navigationWithoutApex"
         class="mx-0 px-0"
     />
+
+        <USeparator type="solid" class="pr-7 py-4" />
+
+
+    <ul class="font-extrabold text-md">
+        <!-- <li class="pb-1"><UIcon name="i-lucide-book-open" class="size-5 align-middle" /> <ULink to="/">Home</ULink></li> -->
+        <li><UIcon name="i-lucide-info" class="size-5 align-middle" /> <ULink to="/about">About</ULink></li>
+    </ul>
 </div></template>
