@@ -36,7 +36,7 @@ const headline = "Public Docs"
         <ULink to="/">
             <NuxtImg
                 src="logo.svg"
-                class="z-50 absolute top-60 right-24 w-22 h-auto"
+               class="z-50 absolute top-60 right-24 w-22 h-auto"
             />
         </ULink>
 
@@ -48,7 +48,7 @@ const headline = "Public Docs"
 
             <ULink
                 to="https://annebrown.ca/prod"
-                class="inline-block m-0 -mt-3 p-0 pt-2"
+               class="inline-block m-0 -mt-3 p-0 pt-2"
             >
                 Other Sites
             </ULink>

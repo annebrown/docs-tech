@@ -25,7 +25,7 @@ export default defineAppConfig({
           disabled: false,
           active: false,
           variant: 'pill',
-          class: {
+         class: {
             link: [
               'hover:text-(--ui-text-highlighted) hover:before:bg-(--ui-bg-elevated)/50 data-[state=open]:text-(--ui-text-highlighted)',
               'transition-colors before:transition-colors'
@@ -41,7 +41,7 @@ export default defineAppConfig({
           color: 'primary',
           variant: 'pill',
           active: true,
-          class: {
+         class: {
             link: 'text-(--ui-primary)',
             linkLeadingIcon: 'text-(--ui-primary) group-data-[state=open]:text-(--ui-primary)'
           }
@@ -67,7 +67,7 @@ export default defineAppConfig({
           disabled: false,
           active: false,
           variant: 'pill',
-          class: {
+         class: {
             link: [
               'hover:text-(--ui-secondary) hover:before:bg-(--ui-secondary)/10',
               'transition-colors before:transition-colors'
@@ -83,7 +83,7 @@ export default defineAppConfig({
           color: 'primary',
           variant: 'pill',
           active: true,
-          class: {
+         class: {
             link: 'text-(--ui-secondary)',
             linkLeadingIcon: 'text-(--ui-secondary) group-data-[state=open]:text-(--ui-secondary)'
           }
@@ -91,7 +91,7 @@ export default defineAppConfig({
         // Focus
         {
           disabled: false,
-          class: {
+         class: {
             link: 'focus-visible:before:ring-(--ui-secondary)'
           }
         }
@@ -126,7 +126,7 @@ export default defineAppConfig({
           disabled: false,
           active: false,
           variant: 'pill',
-          class: {
+         class: {
             link: [
               'text-(--ui-text) hover:text-(--ui-secondary) hover:before:bg-(--ui-secondary)/10',
               'transition-colors before:transition-colors'
@@ -140,7 +140,7 @@ export default defineAppConfig({
         // Active state
         {
           active: true,
-          class: {
+         class: {
             link: 'text-(--ui-secondary)',
             linkLeadingIcon: 'text-(--ui-secondary)'
           }

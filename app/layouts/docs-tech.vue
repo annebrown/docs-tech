@@ -15,7 +15,7 @@
     <UContainer class="mx-0 my-0 px-0 py-0 sm:py-0">
 
         <UPage>
-            <template #left  class="">
+            <template #left class="">
                 <div class="w-full">
                     <UPageAside >
                         <NaviMenu class="mx-0 p-4 card-glass-narrow"/>

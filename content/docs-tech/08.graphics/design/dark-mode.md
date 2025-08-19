@@ -27,7 +27,7 @@ If vector images are not an option, a brightness mode component can be used to s
 <template>
   <ClientOnly>
     <UButton
-        class="h-fit mr-1 ml-0 pl-0"
+       class="h-fit mr-1 ml-0 pl-0"
         :icon="isDark ? 'i-heroicons-sun-20-solid' : 'i-heroicons-moon-20-solid'"
         variant="link"
         :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"

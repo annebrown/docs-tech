@@ -17,13 +17,13 @@
 
                 <!-- Logo -->
                 <ULink href='/'>
-                    <Logo class="z-0 inline-block w-18 h-auto m-0 p-1 pr-0"/>
+                    <Logo class="z-0 inline-block w-18 h-auto m-0 p-1 pr-0" />
                 </ULink>
 
                 <!-- Domain Name -->
                 <div class='z-10 inline-block align-top pt-5 pl-0.25
-                    text-[--accent-light] dark:text-[--accent-dark]'>
-
+                    text-[--accent-light] dark:text-[--accent-dark]'
+                >
 
                         <span class="w-fit h-fit m-0 p-0
                             text-primary text-[12px]"
@@ -43,7 +43,7 @@
         <template #right>
             <UContentSearchButton
                 v-if="header?.search"
-                class="relative lg:hidden text-primary"
+               class="relative lg:hidden text-primary"
             />
 
             <UColorModeButton class="text-primary" />
@@ -57,7 +57,7 @@
         </template>
 
         <template #body class="">
-          <NaviMenu  class=""/>
+          <NaviMenu class=""/>
         </template>
     </UHeader>
 </div></template>

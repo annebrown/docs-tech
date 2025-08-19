@@ -23,12 +23,12 @@
 
     <div
         v-if="immediateSubpages && immediateSubpages.length"
-        class="flex flex-row items-center justify-center gap-4 flex-wrap mx-auto"
+       class="flex flex-row items-center justify-center gap-4 flex-wrap mx-auto"
     >
         <div
             v-for="page in immediateSubpages"
             :key="page.path"
-            class="card-glass-link h-16 m-0 p-0 text-center"
+           class="card-glass-link h-16 m-0 p-0 text-center"
         >
 
             <ULink :to="page.path">

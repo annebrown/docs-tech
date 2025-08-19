@@ -52,15 +52,15 @@
 
 <template><div>
     <div class="">
-    <div  class="">
-    <UPage v-if="page"  class="lg:ml-8 pl-4 lg:pl-4 pr-4">
+    <div class="">
+    <UPage v-if="page" class="lg:ml-8 pl-4 lg:pl-4 pr-4">
 
         <UPageHeader
             :title="page.title"
             :description="page.description"
             :links="page.links"
             :headline="headline"
-            class="pt-8"
+           class="pt-8"
         />
 
         <UPageBody class="">
@@ -87,12 +87,12 @@
                 <UContentToc
                     :title="toc?.title"
                     :links="page.body?.toc?.links"
-                    class="w-fit card-glass-narrow bg-transparent dark:bg-transparent"
+                   class="w-fit card-glass-narrow bg-transparent dark:bg-transparent"
                 >
                     <!-- Links Under TOC -->
-                    <template v-if="toc?.bottom" #bottom  class="">
+                    <template v-if="toc?.bottom" #bottom class="">
                         <div
-                            class="block space-y-6"
+                           class="block space-y-6"
                             :class="{ '!mt-6': page.body?.toc?.links?.length }"
                         >
                             <USeparator

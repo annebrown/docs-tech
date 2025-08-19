@@ -46,12 +46,12 @@
 
     <div
         v-if="childrenWithDescriptions && childrenWithDescriptions.length"
-        class=" w-full mx-auto mb-8 pt-6 pb-4 px-2 flex flex-row items-center justify-center gap-4 flex-wrap rounded-lg bg-(--ab-ship)"
+       class=" w-full mx-auto mb-8 pt-6 pb-4 px-2 flex flex-row items-center justify-center gap-4 flex-wrap rounded-lg bg-(--ab-ship)"
     >
         <div
             v-for="item in childrenWithDescriptions"
             :key="item.path"
-            class="h-22 m-0 p-0 text-center"
+           class="h-22 m-0 p-0 text-center"
         >
             <div class="card-glass-link align-middle p-2 pb-0">
                 <ULink :to="item.path">

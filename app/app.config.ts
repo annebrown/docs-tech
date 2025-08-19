@@ -11,7 +11,6 @@ export default defineAppConfig({
             slots: {
                 root: 'pr-1',
                 container: 'h-fit lg:h-fit',
-                //         list: '',
                 item: 'my-0',
                 listWithChildren: 'ms-0 mb-0.5',
                 itemWithChildren: 'data-[state=open]:mb-0.5',
@@ -28,7 +27,7 @@ export default defineAppConfig({
             slots: {
                 root: 'w-fit lg:mt-2 mx-0 sm:mx-0 px-4 lg:px-4 rounded-md',
                 container: '',
-                class: ''
+               class: ''
             },
         },
         footer: {

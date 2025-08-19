@@ -11,6 +11,6 @@
     v-if="page"
     :value="page"
     :prose="false"
-    class="pb-4"
+   class="pb-4"
   />
 </template>

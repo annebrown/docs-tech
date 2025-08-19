@@ -30,7 +30,7 @@
         collapsed
         defaultOpen
         :navigation="navigationWithoutApex"
-        class="mx-0 px-0"
+       class="mx-0 px-0"
     />
 
         <USeparator type="solid" class="pr-7 py-4" />
