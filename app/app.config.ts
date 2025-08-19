@@ -1,5 +1,3 @@
-import { contentSearch } from '#build/ui-pro';
-
 export default defineAppConfig({
     ui: {
         colors: {
