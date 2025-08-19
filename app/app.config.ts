@@ -37,7 +37,7 @@ export default defineAppConfig({
         footer: {
             slots: {
                 root: "bg-(--ab-transom)",
-                container: "py-2 lg:py-2",
+                container: "pt-2 pb-4 lg:pt-2 lg:pb-4",
                 top: "py-0 lg:py-0",
                 bottom: "py-0 lg:py-0",
                 left: "text-xs",

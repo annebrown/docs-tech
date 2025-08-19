@@ -81,6 +81,17 @@ Technology Development Notes
 
   :::u-page-feature
   ---
+  to: /docs-tech/security/
+  ---
+  #title
+  Security
+
+  #description
+  Threats, Vulnerabilities, Authn and Authz
+  :::
+
+  :::u-page-feature
+  ---
   to: /docs-tech/graphics/
   ---
   #title
@@ -88,6 +99,17 @@ Technology Development Notes
 
   #description
   Fonts, images, and graphic design workflows
+  :::
+
+  :::u-page-feature
+  ---
+  to: /docs-tech/a11y/
+  ---
+  #title
+  Accessibility
+
+  #description
+  A11y Design and Development
   :::
 ::
 
