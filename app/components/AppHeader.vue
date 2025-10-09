@@ -1,3 +1,6 @@
+<!-- eslint-disable vue/html-indent -->
+<!-- eslint-disable vue/html-indent -->
+<!-- eslint-disable @stylistic/indent -->
 <script setup lang="ts">
     import NaviMenu from './NaviMenu.vue';
     const { header } = useAppConfig()
