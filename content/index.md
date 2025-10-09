@@ -81,6 +81,17 @@ Technology Development Notes
 
   :::u-page-feature
   ---
+  to: /docs-tech/networking/
+  ---
+  #title
+  Networking
+
+  #description
+  Data exchange and sharing between devices
+  :::
+
+  :::u-page-feature
+  ---
   to: /docs-tech/security/
   ---
   #title
