@@ -1,8 +1,16 @@
 ---
 title: Material 
 description: Material Styling for Angular Apps
-lastModified: '2025-01-07'
+date: 2025-10-09
+lastModified: '2025-10-09'
 ---
+
+::u-page-header
+---
+headline: Angular
+title: Material Styling
+---
+::
 
 ## Add Angular Material Pkg
 

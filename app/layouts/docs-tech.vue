@@ -1,3 +1,4 @@
+<!-- eslint-disable @stylistic/indent -->
 <script setup lang="ts">
     import type { ContentNavigationItem } from '@nuxt/content'
 
@@ -5,14 +6,13 @@
 
     const navigationWithoutApex = computed(() =>
         navigation.value?.[0]?.children?.map(item => ({
-            ...item,
+            ...item
         })) ?? []
     )
-
 </script>
 
 <template>
-    <UContainer class="mx-0 my-0 px-0 py-0 sm:py-0">
+    <!-- <UContainer class="mx-0 my-0 px-0 py-0 sm:py-0"> -->
 
         <UPage>
             <template #left class="">
@@ -27,5 +27,5 @@
 
         </UPage>
 
-    </UContainer>
+    <!-- </UContainer> -->
 </template>
