@@ -1,8 +1,9 @@
 ---
 title: Tech Docs
 description: Technology Development Notes
-navigation: false 
-lastModified: 2025-08-03
+navigation: false
+date: 2025-10-10
+lastModified: '2025-10-10'
 seo:
   title: Tech Docs
   description: Technology Development Notes
@@ -10,24 +11,29 @@ seo:
 
 ::u-page-hero
 ---
+
 orientation: horizontal
 ---
 
-#title
+# title
+
 Tech Docs
 
-#description
-Technology Development Notes
+# description
 
+Technology Development Notes
 ::
 
 ::u-page-section
 
-#features
+# features
+
   :::u-page-feature
   ---
-  to: /docs-tech/frameworks
+
+to: /docs-tech/frameworks
   ---
+
   #title
   Frameworks
 
@@ -37,8 +43,10 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  to: /docs-tech/tooling
+
+to: /docs-tech/tooling
   ---
+
   #title
   Tooling
 
@@ -48,8 +56,10 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  to: /docs-tech/languages
+
+to: /docs-tech/languages
   ---
+
   #title
   Languages
 
@@ -59,8 +69,10 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  to: /docs-tech/oses
+
+to: /docs-tech/oses
   ---
+
   #title
   OSes
 
@@ -70,8 +82,10 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  to: /docs-tech/protocols
+
+to: /docs-tech/protocols
   ---
+
   #title
   Protocols
 
@@ -81,8 +95,10 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  to: /docs-tech/networking/
+
+to: /docs-tech/networking/
   ---
+
   #title
   Networking
 
@@ -92,8 +108,10 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  to: /docs-tech/security/
+
+to: /docs-tech/security/
   ---
+
   #title
   Security
 
@@ -103,8 +121,10 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  to: /docs-tech/graphics/
+
+to: /docs-tech/graphics/
   ---
+
   #title
   Graphics
 
@@ -114,8 +134,10 @@ Technology Development Notes
 
   :::u-page-feature
   ---
-  to: /docs-tech/a11y/
+
+to: /docs-tech/a11y/
   ---
+
   #title
   Accessibility
 
@@ -123,4 +145,3 @@ Technology Development Notes
   A11y Design and Development
   :::
 ::
-
