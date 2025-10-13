@@ -2,7 +2,7 @@
 title: Android
 description: Mobile Operating System
 <!-- navigation: false -->
-lastModified: '2025-10-10'
+lastModified: '2025-10-13'
 ---
 
-- [New Host Config](new-host-config)
+- [New Host Config](./new-host-config)

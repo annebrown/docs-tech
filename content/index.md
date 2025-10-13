@@ -65,7 +65,7 @@ Technology Development Notes
   OSes
 
   #description
-  Linux, Win11, ChromeOS, Android, RasPi
+  Core software that manages a device's hardware and software
   :::
 
   :::u-page-feature
