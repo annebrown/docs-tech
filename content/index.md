@@ -2,8 +2,7 @@
 title: Tech Docs
 description: Technology Development Notes
 navigation: false
-date: 2025-10-10
-lastModified: '2025-10-10'
+lastModified: 2025-08-03
 seo:
   title: Tech Docs
   description: Technology Development Notes
@@ -11,29 +10,24 @@ seo:
 
 ::u-page-hero
 ---
-
 orientation: horizontal
 ---
 
-# title
-
+#title
 Tech Docs
 
-# description
-
+#description
 Technology Development Notes
+
 ::
 
 ::u-page-section
 
-# features
-
+#features
   :::u-page-feature
   ---
-
-to: /docs-tech/frameworks
+  to: /docs-tech/frameworks
   ---
-
   #title
   Frameworks
 
@@ -43,10 +37,8 @@ to: /docs-tech/frameworks
 
   :::u-page-feature
   ---
-
-to: /docs-tech/tooling
+  to: /docs-tech/tooling
   ---
-
   #title
   Tooling
 
@@ -56,10 +48,8 @@ to: /docs-tech/tooling
 
   :::u-page-feature
   ---
-
-to: /docs-tech/languages
+  to: /docs-tech/languages
   ---
-
   #title
   Languages
 
@@ -69,10 +59,8 @@ to: /docs-tech/languages
 
   :::u-page-feature
   ---
-
-to: /docs-tech/oses
+  to: /docs-tech/oses
   ---
-
   #title
   OSes
 
@@ -82,10 +70,8 @@ to: /docs-tech/oses
 
   :::u-page-feature
   ---
-
-to: /docs-tech/protocols
+  to: /docs-tech/protocols
   ---
-
   #title
   Protocols
 
@@ -95,23 +81,8 @@ to: /docs-tech/protocols
 
   :::u-page-feature
   ---
-
-to: /docs-tech/networking/
+  to: /docs-tech/security/
   ---
-
-  #title
-  Networking
-
-  #description
-  Data exchange and sharing between devices
-  :::
-
-  :::u-page-feature
-  ---
-
-to: /docs-tech/security/
-  ---
-
   #title
   Security
 
@@ -121,10 +92,8 @@ to: /docs-tech/security/
 
   :::u-page-feature
   ---
-
-to: /docs-tech/graphics/
+  to: /docs-tech/graphics/
   ---
-
   #title
   Graphics
 
@@ -134,10 +103,8 @@ to: /docs-tech/graphics/
 
   :::u-page-feature
   ---
-
-to: /docs-tech/a11y/
+  to: /docs-tech/a11y/
   ---
-
   #title
   Accessibility
 
