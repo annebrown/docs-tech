@@ -19,6 +19,7 @@ const headline = "Public Docs"
 
 <template>
     <div class="card-glass-narrow">
+
         <!-- Title -->
         <h1 class="py-4 text-4xl font-extrabold text-center text-(--ui-secondary)">
             {{ title }}

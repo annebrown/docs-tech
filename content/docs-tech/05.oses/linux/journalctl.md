@@ -103,7 +103,7 @@ Output:
 33
 ```
 
-then:
+then:k
 
 ```bash
 journalctl _UID=33 --since today

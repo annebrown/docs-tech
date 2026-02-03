@@ -56,6 +56,7 @@ SNAPa plug (consumes) -> IF -> SNAPb slot (provides)
 ```bash
 snap connections|grep blue
 ```
+
 Output:
 
 | IF | PLUG (client) | SLOT |
