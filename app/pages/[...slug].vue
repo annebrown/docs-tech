@@ -54,14 +54,14 @@
     <div class="">
     <div class="">
     <UPage v-if="page" class="lg:ml-8 pl-4 lg:pl-4 pr-4">
-<!--
+
         <UPageHeader
             :title="page.title"
             :description="page.description"
             :links="page.links"
             :headline="headline"
            class="pt-8"
-        /> -->
+        />
 
         <UPageBody class="">
 

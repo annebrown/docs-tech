@@ -6,23 +6,27 @@ lastModified: '2025-01-08'
 
 ## Dev Server
 
-### Configure Port
+### Configure Custom URL
 
 In `package.json`, add script for local host, like:
 
 ```json
-    "serve": "npx quartz build --serve --host 192.168.5.55 --port 5555"
+"serve": "npx quartz build --serve --host 192.168.5.55 --port 5555"
 ```
 
-Launch local server:
+### Launch Server
 
 ```bash
 npx quartz build --serve
 ```
 
-### Vercel
+## Production Server
 
-## vercel.json
+Vercel is my host of choice for
+
+### vercel.json
+
+Create or append to `vercel.json`:
 
 ```json
 {
@@ -30,13 +34,15 @@ npx quartz build --serve
 }
 ```
 
-## Vercel Project Config
+### Vercel Project Config
+
+Configure New Vercel Server:
 
 Framework Preset: `Other`
 Root Directory: `./`
 Build and Output Settings > Build Command: `npx quartz build`
 
-## Custom Domain
+### Custom Domain
 
 Configure `baseUrl` in `quartz.config.ts`:
 
