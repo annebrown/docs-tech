@@ -58,29 +58,18 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: 'https://docs-template.nuxt.dev/',
-    title: 'Tech Docs',
-    description: 'Description of llms in nuxt config...',
-    full: {
-      title: 'Technology Development Docs',
-      description: 'Notes on Technology Development'
-    },
+    domain: 'https://docs-tech.annebrown.ca/',
+    title: 'Technical Development',
+    description: 'Technology Development Notes'
+
     sections: [
-        {
-        title: 'Frameworks',
+      {
+        title: 'Technical Development',
+        description: 'Technology Development Notes',
         contentCollection: 'docsTech',
-        contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/frameworks%' }
-        ]
-      },
-            {
-        title: 'Shortcuts',
-        contentCollection: 'docsTech',
-        contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/shortcuts%' }
-        ]
-      }
-    ]
+       },
+
+
   },
     runtimeConfig: {
     public: {
