@@ -10,11 +10,6 @@
 
     const route = useRoute()
 
-
-
-const headline = "Public Docs"
-
-
 </script>
 
 <template>
