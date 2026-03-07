@@ -7,11 +7,13 @@ lastModified: '2025-10-13'
 
 ::u-page-header
 ---
+
 headline: OSes
 title: Win11
 ---
+
 ::
 
 ## Description
 
-Unsuitable environment for development (See [wsl2](../win11/wsl2/index.md))
+Unsuitable environment for development (See [wsl2](/docs-tech/oses/win11/wsl2))
