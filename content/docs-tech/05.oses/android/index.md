@@ -5,4 +5,4 @@ description: Mobile Operating System
 lastModified: '2025-10-13'
 ---
 
-- [New Host Config](../new-host-config)
+- [New Host Config](../android/new-host-config.md)

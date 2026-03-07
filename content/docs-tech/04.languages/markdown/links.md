@@ -46,10 +46,9 @@ Also without the link - `[Hidden stuff]`: [Hidden stuff]
 
 ## Placeholders
 
-Placeholders like [TODO: Implement Feature X](javascript:void(0)) and [Link Coming Soon](#) are not working in Code.
+Placeholders like `[TODO: Implement Feature X](javascript:void(0))` and `[Link Coming Soon](#)` are not working in Code.
 
 ## Hidden Stuff
 
-[1]: https://some.addy.com "Verbose Label"
 [logo-ab]: https://annebrown.ca/logo.svg "Optional Title"
 [^1]: "This footnote text is hidden at the bottom.  LOL"

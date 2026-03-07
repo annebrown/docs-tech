@@ -14,4 +14,4 @@ title: Win11
 
 ## Description
 
-Unsuitable environment for development (See [wsl2](wsl2))
+Unsuitable environment for development (See [wsl2](../win11/wsl2/index.md))

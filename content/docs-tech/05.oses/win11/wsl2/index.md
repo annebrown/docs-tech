@@ -1,7 +1,7 @@
 ---
 title: WSL2
 description: Windows Subsystem for Linux, Version 2
-<!-- navigation: false --> 
+<!-- navigation: false -->
 lastModified: '2025-01-08'
 ---
 
@@ -13,7 +13,7 @@ lastModified: '2025-01-08'
 ## SSH
 
 ```bash
-$ DISPLAY=:0.0 SSH -y [hostname]
+DISPLAY=:0.0 SSH -y [hostname]
 ```
 
 ## Config
@@ -26,4 +26,3 @@ systemd=true
 [network]
 generateHosts false
 ```
-
