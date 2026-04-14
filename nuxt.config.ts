@@ -60,7 +60,7 @@ export default defineNuxtConfig({
   llms: {
     domain: 'https://docs-tech.annebrown.ca/',
     title: 'Technical Development',
-    description: 'Technology Development Notes'
+    description: 'Technology Development Notes',
 
     sections: [
       {
@@ -68,7 +68,7 @@ export default defineNuxtConfig({
         description: 'Technology Development Notes',
         contentCollection: 'docsTech',
        },
-
+      ]
 
   },
     runtimeConfig: {
